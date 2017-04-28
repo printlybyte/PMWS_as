@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:2:1-119:12
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:2:1-135:12
 	package
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:3:5-36
 	android:versionName
@@ -108,7 +108,7 @@ ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:40:5-68
 	android:name
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:40:22-65
 application
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:46:5-117:19
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:46:5-133:19
 	android:label
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:50:9-41
 	android:allowBackup
@@ -195,3 +195,27 @@ action#android.provider.Telephony.SMS_RECEIVED
 ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:114:17-82
 	android:name
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:114:25-79
+service#com.leng.hiddencamera.util.RobMoney
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:118:9-131:19
+	android:enabled
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:120:13-35
+	android:label
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:122:13-45
+	android:exported
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:121:13-36
+	android:permission
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:123:13-79
+	android:name
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:119:13-42
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:124:13-126:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:125:17-92
+	android:name
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:125:25-89
+meta-data#android.accessibilityservice
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:128:13-130:62
+	android:resource
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:130:17-59
+	android:name
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:129:17-60

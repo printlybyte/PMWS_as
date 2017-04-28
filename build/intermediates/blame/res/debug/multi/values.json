@@ -460,8 +460,27 @@
                     "startLine": 61,
                     "startColumn": 4,
                     "startOffset": 1948,
+                    "endColumn": 60,
+                    "endOffset": 2004
+                },
+                "from": {
+                    "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4328,
+                        "endColumn": 60,
+                        "endOffset": 4384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 2009,
                     "endColumn": 52,
-                    "endOffset": 1996
+                    "endOffset": 2057
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -476,11 +495,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 2001,
+                    "startOffset": 2062,
                     "endColumn": 41,
-                    "endOffset": 2038
+                    "endOffset": 2099
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -495,11 +514,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 2043,
+                    "startOffset": 2104,
                     "endColumn": 45,
-                    "endOffset": 2084
+                    "endOffset": 2145
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -514,11 +533,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 2089,
+                    "startOffset": 2150,
                     "endColumn": 53,
-                    "endOffset": 2138
+                    "endOffset": 2199
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -533,11 +552,11 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 2143,
+                    "startOffset": 2204,
                     "endColumn": 41,
-                    "endOffset": 2180
+                    "endOffset": 2241
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -552,11 +571,11 @@
             },
             {
                 "to": {
-                    "startLine": 66,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 2185,
+                    "startOffset": 2246,
                     "endColumn": 41,
-                    "endOffset": 2222
+                    "endOffset": 2283
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -571,11 +590,11 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 2227,
+                    "startOffset": 2288,
                     "endColumn": 39,
-                    "endOffset": 2262
+                    "endOffset": 2323
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -590,11 +609,11 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 2267,
+                    "startOffset": 2328,
                     "endColumn": 51,
-                    "endOffset": 2314
+                    "endOffset": 2375
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -609,11 +628,11 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 2319,
+                    "startOffset": 2380,
                     "endColumn": 39,
-                    "endOffset": 2354
+                    "endOffset": 2415
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -628,11 +647,11 @@
             },
             {
                 "to": {
-                    "startLine": 70,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 2359,
+                    "startOffset": 2420,
                     "endColumn": 41,
-                    "endOffset": 2396
+                    "endOffset": 2457
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -647,11 +666,11 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 2401,
+                    "startOffset": 2462,
                     "endColumn": 43,
-                    "endOffset": 2440
+                    "endOffset": 2501
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -666,11 +685,11 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 2445,
+                    "startOffset": 2506,
                     "endColumn": 38,
-                    "endOffset": 2479
+                    "endOffset": 2540
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -685,11 +704,11 @@
             },
             {
                 "to": {
-                    "startLine": 73,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 2484,
+                    "startOffset": 2545,
                     "endColumn": 46,
-                    "endOffset": 2526
+                    "endOffset": 2587
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -704,11 +723,11 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 2531,
+                    "startOffset": 2592,
                     "endColumn": 57,
-                    "endOffset": 2584
+                    "endOffset": 2645
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -723,11 +742,11 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 2589,
+                    "startOffset": 2650,
                     "endColumn": 54,
-                    "endOffset": 2639
+                    "endOffset": 2700
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -742,11 +761,11 @@
             },
             {
                 "to": {
-                    "startLine": 76,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 2644,
+                    "startOffset": 2705,
                     "endColumn": 74,
-                    "endOffset": 2714
+                    "endOffset": 2775
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -761,11 +780,11 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 2719,
+                    "startOffset": 2780,
                     "endColumn": 49,
-                    "endOffset": 2764
+                    "endOffset": 2825
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -780,11 +799,11 @@
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 2769,
+                    "startOffset": 2830,
                     "endColumn": 46,
-                    "endOffset": 2811
+                    "endOffset": 2872
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -799,11 +818,11 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 2816,
+                    "startOffset": 2877,
                     "endColumn": 61,
-                    "endOffset": 2873
+                    "endOffset": 2934
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -818,11 +837,11 @@
             },
             {
                 "to": {
-                    "startLine": 80,
+                    "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 2878,
+                    "startOffset": 2939,
                     "endColumn": 46,
-                    "endOffset": 2920
+                    "endOffset": 2981
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -837,11 +856,11 @@
             },
             {
                 "to": {
-                    "startLine": 81,
+                    "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 2925,
+                    "startOffset": 2986,
                     "endColumn": 52,
-                    "endOffset": 2973
+                    "endOffset": 3034
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -856,11 +875,11 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 2978,
+                    "startOffset": 3039,
                     "endColumn": 50,
-                    "endOffset": 3024
+                    "endOffset": 3085
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -875,11 +894,11 @@
             },
             {
                 "to": {
-                    "startLine": 83,
+                    "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 3029,
+                    "startOffset": 3090,
                     "endColumn": 44,
-                    "endOffset": 3069
+                    "endOffset": 3130
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -894,11 +913,11 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 3074,
+                    "startOffset": 3135,
                     "endColumn": 47,
-                    "endOffset": 3117
+                    "endOffset": 3178
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -913,11 +932,11 @@
             },
             {
                 "to": {
-                    "startLine": 85,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 3122,
+                    "startOffset": 3183,
                     "endColumn": 46,
-                    "endOffset": 3164
+                    "endOffset": 3225
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -932,11 +951,11 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 3169,
+                    "startOffset": 3230,
                     "endColumn": 52,
-                    "endOffset": 3217
+                    "endOffset": 3278
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -951,11 +970,11 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 3222,
+                    "startOffset": 3283,
                     "endColumn": 61,
-                    "endOffset": 3279
+                    "endOffset": 3340
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -970,11 +989,11 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 3284,
+                    "startOffset": 3345,
                     "endColumn": 54,
-                    "endOffset": 3334
+                    "endOffset": 3395
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -989,11 +1008,11 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 3339,
+                    "startOffset": 3400,
                     "endColumn": 60,
-                    "endOffset": 3395
+                    "endOffset": 3456
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1008,11 +1027,11 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 3400,
+                    "startOffset": 3461,
                     "endColumn": 61,
-                    "endOffset": 3457
+                    "endOffset": 3518
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1027,11 +1046,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 3462,
+                    "startOffset": 3523,
                     "endColumn": 60,
-                    "endOffset": 3518
+                    "endOffset": 3579
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1046,11 +1065,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 3523,
+                    "startOffset": 3584,
                     "endColumn": 56,
-                    "endOffset": 3575
+                    "endOffset": 3636
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1065,11 +1084,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 3580,
+                    "startOffset": 3641,
                     "endColumn": 44,
-                    "endOffset": 3620
+                    "endOffset": 3681
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1084,11 +1103,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 3625,
+                    "startOffset": 3686,
                     "endColumn": 37,
-                    "endOffset": 3658
+                    "endOffset": 3719
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1103,11 +1122,11 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 3663,
+                    "startOffset": 3724,
                     "endColumn": 42,
-                    "endOffset": 3701
+                    "endOffset": 3762
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1122,11 +1141,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 3706,
+                    "startOffset": 3767,
                     "endColumn": 52,
-                    "endOffset": 3754
+                    "endOffset": 3815
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1141,11 +1160,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 3759,
+                    "startOffset": 3820,
                     "endColumn": 53,
-                    "endOffset": 3808
+                    "endOffset": 3869
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1160,11 +1179,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 3813,
+                    "startOffset": 3874,
                     "endColumn": 54,
-                    "endOffset": 3863
+                    "endOffset": 3924
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1179,11 +1198,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 3868,
+                    "startOffset": 3929,
                     "endColumn": 42,
-                    "endOffset": 3906
+                    "endOffset": 3967
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1198,11 +1217,11 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 3911,
+                    "startOffset": 3972,
                     "endColumn": 53,
-                    "endOffset": 3960
+                    "endOffset": 4021
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1217,11 +1236,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 3965,
+                    "startOffset": 4026,
                     "endColumn": 52,
-                    "endOffset": 4013
+                    "endOffset": 4074
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1236,11 +1255,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 4018,
+                    "startOffset": 4079,
                     "endColumn": 63,
-                    "endOffset": 4077
+                    "endOffset": 4138
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1255,11 +1274,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 4082,
+                    "startOffset": 4143,
                     "endColumn": 51,
-                    "endOffset": 4129
+                    "endOffset": 4190
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1274,11 +1293,11 @@
             },
             {
                 "to": {
-                    "startLine": 104,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 4134,
+                    "startOffset": 4195,
                     "endColumn": 58,
-                    "endOffset": 4188
+                    "endOffset": 4249
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1293,11 +1312,11 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 4193,
+                    "startOffset": 4254,
                     "endColumn": 54,
-                    "endOffset": 4243
+                    "endOffset": 4304
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1312,11 +1331,11 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 4248,
+                    "startOffset": 4309,
                     "endColumn": 55,
-                    "endOffset": 4299
+                    "endOffset": 4360
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1331,11 +1350,11 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 4304,
+                    "startOffset": 4365,
                     "endColumn": 48,
-                    "endOffset": 4348
+                    "endOffset": 4409
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1350,11 +1369,11 @@
             },
             {
                 "to": {
-                    "startLine": 108,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 4353,
+                    "startOffset": 4414,
                     "endColumn": 50,
-                    "endOffset": 4399
+                    "endOffset": 4460
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1369,11 +1388,11 @@
             },
             {
                 "to": {
-                    "startLine": 109,
+                    "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 4404,
+                    "startOffset": 4465,
                     "endColumn": 54,
-                    "endOffset": 4454
+                    "endOffset": 4515
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1388,11 +1407,11 @@
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 4459,
+                    "startOffset": 4520,
                     "endColumn": 43,
-                    "endOffset": 4498
+                    "endOffset": 4559
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1407,11 +1426,11 @@
             },
             {
                 "to": {
-                    "startLine": 111,
+                    "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 4503,
+                    "startOffset": 4564,
                     "endColumn": 44,
-                    "endOffset": 4543
+                    "endOffset": 4604
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1426,11 +1445,11 @@
             },
             {
                 "to": {
-                    "startLine": 112,
+                    "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 4548,
+                    "startOffset": 4609,
                     "endColumn": 38,
-                    "endOffset": 4582
+                    "endOffset": 4643
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1445,11 +1464,11 @@
             },
             {
                 "to": {
-                    "startLine": 113,
+                    "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 4587,
+                    "startOffset": 4648,
                     "endColumn": 80,
-                    "endOffset": 4663
+                    "endOffset": 4724
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1464,11 +1483,11 @@
             },
             {
                 "to": {
-                    "startLine": 114,
+                    "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 4668,
+                    "startOffset": 4729,
                     "endColumn": 47,
-                    "endOffset": 4711
+                    "endOffset": 4772
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1483,11 +1502,11 @@
             },
             {
                 "to": {
-                    "startLine": 115,
+                    "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 4716,
+                    "startOffset": 4777,
                     "endColumn": 45,
-                    "endOffset": 4757
+                    "endOffset": 4818
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1502,11 +1521,11 @@
             },
             {
                 "to": {
-                    "startLine": 116,
+                    "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 4762,
+                    "startOffset": 4823,
                     "endColumn": 44,
-                    "endOffset": 4802
+                    "endOffset": 4863
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1521,11 +1540,11 @@
             },
             {
                 "to": {
-                    "startLine": 117,
+                    "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 4807,
+                    "startOffset": 4868,
                     "endColumn": 49,
-                    "endOffset": 4852
+                    "endOffset": 4913
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1540,11 +1559,11 @@
             },
             {
                 "to": {
-                    "startLine": 118,
+                    "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 4857,
+                    "startOffset": 4918,
                     "endColumn": 39,
-                    "endOffset": 4892
+                    "endOffset": 4953
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1559,11 +1578,11 @@
             },
             {
                 "to": {
-                    "startLine": 119,
+                    "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 4897,
+                    "startOffset": 4958,
                     "endColumn": 42,
-                    "endOffset": 4935
+                    "endOffset": 4996
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1578,11 +1597,11 @@
             },
             {
                 "to": {
-                    "startLine": 120,
+                    "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 4940,
+                    "startOffset": 5001,
                     "endColumn": 41,
-                    "endOffset": 4977
+                    "endOffset": 5038
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1597,11 +1616,11 @@
             },
             {
                 "to": {
-                    "startLine": 121,
+                    "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 4982,
+                    "startOffset": 5043,
                     "endColumn": 58,
-                    "endOffset": 5036
+                    "endOffset": 5097
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1616,11 +1635,11 @@
             },
             {
                 "to": {
-                    "startLine": 122,
+                    "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 5041,
+                    "startOffset": 5102,
                     "endColumn": 45,
-                    "endOffset": 5082
+                    "endOffset": 5143
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1635,11 +1654,11 @@
             },
             {
                 "to": {
-                    "startLine": 123,
+                    "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 5087,
+                    "startOffset": 5148,
                     "endColumn": 45,
-                    "endOffset": 5128
+                    "endOffset": 5189
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1654,11 +1673,11 @@
             },
             {
                 "to": {
-                    "startLine": 124,
+                    "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 5133,
+                    "startOffset": 5194,
                     "endColumn": 50,
-                    "endOffset": 5179
+                    "endOffset": 5240
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1673,11 +1692,11 @@
             },
             {
                 "to": {
-                    "startLine": 125,
+                    "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 5184,
+                    "startOffset": 5245,
                     "endColumn": 45,
-                    "endOffset": 5225
+                    "endOffset": 5286
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1692,11 +1711,11 @@
             },
             {
                 "to": {
-                    "startLine": 126,
+                    "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 5230,
+                    "startOffset": 5291,
                     "endColumn": 61,
-                    "endOffset": 5287
+                    "endOffset": 5348
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1711,11 +1730,11 @@
             },
             {
                 "to": {
-                    "startLine": 127,
+                    "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 5292,
+                    "startOffset": 5353,
                     "endColumn": 49,
-                    "endOffset": 5337
+                    "endOffset": 5398
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1730,11 +1749,11 @@
             },
             {
                 "to": {
-                    "startLine": 128,
+                    "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 5342,
+                    "startOffset": 5403,
                     "endColumn": 48,
-                    "endOffset": 5386
+                    "endOffset": 5447
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1749,11 +1768,11 @@
             },
             {
                 "to": {
-                    "startLine": 129,
+                    "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 5391,
+                    "startOffset": 5452,
                     "endColumn": 46,
-                    "endOffset": 5433
+                    "endOffset": 5494
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1768,11 +1787,11 @@
             },
             {
                 "to": {
-                    "startLine": 130,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 5438,
+                    "startOffset": 5499,
                     "endColumn": 49,
-                    "endOffset": 5483
+                    "endOffset": 5544
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1787,11 +1806,11 @@
             },
             {
                 "to": {
-                    "startLine": 131,
+                    "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 5488,
+                    "startOffset": 5549,
                     "endColumn": 56,
-                    "endOffset": 5540
+                    "endOffset": 5601
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1806,11 +1825,11 @@
             },
             {
                 "to": {
-                    "startLine": 132,
+                    "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 5545,
+                    "startOffset": 5606,
                     "endColumn": 66,
-                    "endOffset": 5607
+                    "endOffset": 5668
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1825,11 +1844,11 @@
             },
             {
                 "to": {
-                    "startLine": 133,
+                    "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 5612,
+                    "startOffset": 5673,
                     "endColumn": 77,
-                    "endOffset": 5685
+                    "endOffset": 5746
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1844,11 +1863,11 @@
             },
             {
                 "to": {
-                    "startLine": 134,
+                    "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 5690,
+                    "startOffset": 5751,
                     "endColumn": 52,
-                    "endOffset": 5738
+                    "endOffset": 5799
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1863,11 +1882,11 @@
             },
             {
                 "to": {
-                    "startLine": 135,
+                    "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 5743,
+                    "startOffset": 5804,
                     "endColumn": 51,
-                    "endOffset": 5790
+                    "endOffset": 5851
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1882,11 +1901,11 @@
             },
             {
                 "to": {
-                    "startLine": 136,
+                    "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 5795,
+                    "startOffset": 5856,
                     "endColumn": 55,
-                    "endOffset": 5846
+                    "endOffset": 5907
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1901,11 +1920,11 @@
             },
             {
                 "to": {
-                    "startLine": 137,
+                    "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 5851,
+                    "startOffset": 5912,
                     "endColumn": 49,
-                    "endOffset": 5896
+                    "endOffset": 5957
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1920,11 +1939,11 @@
             },
             {
                 "to": {
-                    "startLine": 138,
+                    "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 5901,
+                    "startOffset": 5962,
                     "endColumn": 48,
-                    "endOffset": 5945
+                    "endOffset": 6006
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1939,11 +1958,11 @@
             },
             {
                 "to": {
-                    "startLine": 139,
+                    "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 5950,
+                    "startOffset": 6011,
                     "endColumn": 53,
-                    "endOffset": 5999
+                    "endOffset": 6060
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1958,11 +1977,11 @@
             },
             {
                 "to": {
-                    "startLine": 140,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 6004,
+                    "startOffset": 6065,
                     "endColumn": 50,
-                    "endOffset": 6050
+                    "endOffset": 6111
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1977,11 +1996,11 @@
             },
             {
                 "to": {
-                    "startLine": 141,
+                    "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 6055,
+                    "startOffset": 6116,
                     "endColumn": 42,
-                    "endOffset": 6093
+                    "endOffset": 6154
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\strings.xml",
@@ -1996,12 +2015,12 @@
             },
             {
                 "to": {
-                    "startLine": 142,
+                    "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 6098,
-                    "endLine": 150,
+                    "startOffset": 6159,
+                    "endLine": 151,
                     "endColumn": 12,
-                    "endOffset": 6407
+                    "endOffset": 6468
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",
@@ -2017,12 +2036,12 @@
             },
             {
                 "to": {
-                    "startLine": 151,
+                    "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 6412,
-                    "endLine": 155,
+                    "startOffset": 6473,
+                    "endLine": 156,
                     "endColumn": 12,
-                    "endOffset": 6680
+                    "endOffset": 6741
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",
@@ -2038,12 +2057,12 @@
             },
             {
                 "to": {
-                    "startLine": 156,
+                    "startLine": 157,
                     "startColumn": 4,
-                    "startOffset": 6685,
-                    "endLine": 158,
+                    "startOffset": 6746,
+                    "endLine": 159,
                     "endColumn": 12,
-                    "endOffset": 6841
+                    "endOffset": 6902
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",
@@ -2059,12 +2078,12 @@
             },
             {
                 "to": {
-                    "startLine": 159,
+                    "startLine": 160,
                     "startColumn": 4,
-                    "startOffset": 6846,
-                    "endLine": 161,
+                    "startOffset": 6907,
+                    "endLine": 162,
                     "endColumn": 12,
-                    "endOffset": 6970
+                    "endOffset": 7031
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",
@@ -2080,12 +2099,12 @@
             },
             {
                 "to": {
-                    "startLine": 162,
+                    "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 6975,
-                    "endLine": 165,
+                    "startOffset": 7036,
+                    "endLine": 166,
                     "endColumn": 12,
-                    "endOffset": 7148
+                    "endOffset": 7209
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",
@@ -2101,11 +2120,11 @@
             },
             {
                 "to": {
-                    "startLine": 166,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 7153,
+                    "startOffset": 7214,
                     "endColumn": 80,
-                    "endOffset": 7229
+                    "endOffset": 7290
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",
@@ -2120,12 +2139,12 @@
             },
             {
                 "to": {
-                    "startLine": 167,
+                    "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 7234,
-                    "endLine": 176,
+                    "startOffset": 7295,
+                    "endLine": 177,
                     "endColumn": 12,
-                    "endOffset": 7691
+                    "endOffset": 7752
                 },
                 "from": {
                     "file": "D:\\studioworkspcse\\PMWS_as\\res\\values\\styles.xml",

@@ -2,5 +2,9 @@
     {
         "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\xml\\settings.xml",
         "source": "D:\\studioworkspcse\\PMWS_as\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\xml\\rob_service_config.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\xml\\rob_service_config.xml"
     }
 ]

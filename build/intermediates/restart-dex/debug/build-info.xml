@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="23"
-    density="xxxhdpi"
+    api-level="24"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="94475948034072"
+    timestamp="97007711015748"
     token="2311208172048231658"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="619" />
+        duration="521" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="385" />
+        duration="354" />
     <task
         name="verifier"
-        duration="95" />
+        duration="125" />
 
     <artifact
         location="D:\studioworkspcse\PMWS_as\build\outputs\apk\PMWS_as-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="94475948034072"
+        timestamp="97007711015748"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\studioworkspcse\PMWS_as\build\outputs\apk\PMWS_as-debug.apk"

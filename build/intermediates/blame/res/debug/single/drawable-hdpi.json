@@ -16,6 +16,10 @@
         "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\upload_pswblank.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\upload_pswblank.png"
+    },
+    {
         "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\singlepos_pswok.png",
         "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\singlepos_pswok.png"
     },

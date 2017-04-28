@@ -83,5 +83,6 @@
     <string name="pref_record_time_default">5</string>
     <string name="title_activity_super_manager">SuperManagerActivity</string>
     <string name="title_activity_camera1">Camera1Activity</string>
+    <string name="accessibility_description">开启辅助服务</string>
 
 </resources>

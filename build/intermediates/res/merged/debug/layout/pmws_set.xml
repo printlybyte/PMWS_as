@@ -295,6 +295,15 @@
                 android:layout_height="1px"
                 android:background="#000000"></View>
 
+            <TextView
+                android:id="@+id/volume_up"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:text="volume"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

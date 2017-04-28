@@ -106,7 +106,7 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
     private String appPassWord = "8888888";
     private static final String destroyCode = "pmws1234";
     AlertDialog dialog;
-    public static int RECORD_DIALOG=0;
+    public static int RECORD_DIALOG = 0;
 
 
     private Handler mHandler = new Handler() {
@@ -159,32 +159,32 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
         }
     };
     private TextView change_pwd;
-    private String TAG="主activity";
+    private TextView mVolume_cge;
+    private String TAG = "主activity";
     private boolean isFirst;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Log.i(TAG,"1;"+"sIsRecording=="+String.valueOf(sIsRecording));
-
+        Log.i(TAG, "1;" + "sIsRecording==" + String.valueOf(sIsRecording));
 
 
         if (sIsRecording) {
             // 如果在录制中，toast显示正在录制
             Toast.makeText(getBaseContext(), "正在录制中，请先停止...", Toast.LENGTH_LONG)
                     .show();
-            Log.i(TAG,"2");
+            Log.i(TAG, "2");
             finish();
 
         }
-        Log.i(TAG,"4;"+"sIsRecording=="+String.valueOf(sIsRecording));
+        Log.i(TAG, "4;" + "sIsRecording==" + String.valueOf(sIsRecording));
 
         if (sIsRecording) {
             finish();
         }
 
-        Log.i(TAG,"5");
+        Log.i(TAG, "5");
         setContentView(R.layout.pmws_set);
         sp = getSharedPreferences("PMWS_SET", MODE_PRIVATE);
         String jzsj = null;
@@ -257,7 +257,6 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
         setOnclicks();
 
     }
-
 
 
     /**
@@ -415,7 +414,7 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
         System.out.println("main activity onResume");
         super.onResume();
         initSet();
-        if (RECORD_DIALOG==0){
+        if (RECORD_DIALOG == 0) {
             showPasswordInputDialog();
         }
 
@@ -465,14 +464,13 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
                         dialog.dismiss();
 
 
-
                     } else {
                         if (savedPassword.equals(password)) {
 
                             Toast.makeText(Pingmws_SetActivity.this, "验证通过",
                                     Toast.LENGTH_SHORT).show();
                             checkInfo();
-                            isFirst=false;
+                            isFirst = false;
                             dialog.dismiss();
                             etPassword.setText("");
 
@@ -492,10 +490,10 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
             }
         });
         //要是弹窗没有弹出的话就弹出
-        System.out.println("密码输入框现在的状态为="+dialog.isShowing());
-        if (!dialog.isShowing()){
+        System.out.println("密码输入框现在的状态为=" + dialog.isShowing());
+        if (!dialog.isShowing()) {
             dialog.show();
-            Log.i(TAG,"密码输入框弹出");
+            Log.i(TAG, "密码输入框弹出");
         }
 
     }
@@ -557,6 +555,7 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
 
     private void setOnclicks() {
         change_pwd.setOnClickListener(this);
+        mVolume_cge.setOnClickListener(this);
         camera_rl.setOnClickListener(this);
         video_time_rl.setOnClickListener(this);
         file_path_rl.setOnClickListener(this);
@@ -578,7 +577,9 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
     }
 
     private void findView() {
+
         change_pwd = (TextView) findViewById(R.id.change_pwd);
+        mVolume_cge = (TextView) findViewById(R.id.volume_up);
         file_path_iv = (ImageView) findViewById(R.id.file_path_iv);
         encrption_tv = (TextView) findViewById(R.id.encrption_tv);
         file_path_name = (TextView) findViewById(R.id.file_path_name);
@@ -631,6 +632,20 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.volume_up:
+                Toast.makeText(this, "THIS IS CHICK", Toast.LENGTH_SHORT).show();
+
+                try {
+                    Intent intent = new Intent(
+                            android.provider.Settings.ACTION_ACCESSIBILITY_SETTINGS);
+                    startActivity(intent);
+                    Toast.makeText(this, "找到按键监听服务，开启即可", Toast.LENGTH_LONG).show();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                break;
+
             case R.id.encrption_tv://加密文件
 
                 List<String> fList = getFileList(SAVED_VIDEO_PATH,
@@ -747,8 +762,8 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
 
     private void showChangePwd() {
         View v = LayoutInflater.from(this).inflate(R.layout.change_pwd, null);
-       final  EditText et1 = (EditText) v.findViewById(R.id.pwd_et1);
-      final   EditText et2 = (EditText) v.findViewById(R.id.pwd_et2);
+        final EditText et1 = (EditText) v.findViewById(R.id.pwd_et1);
+        final EditText et2 = (EditText) v.findViewById(R.id.pwd_et2);
         TextView tv1 = (TextView) v.findViewById(R.id.pwd_tv1);
         TextView tv2 = (TextView) v.findViewById(R.id.pwd_tv2);
         final Dialog dialog_c = new Dialog(this, R.style.DialogStyle);
@@ -767,20 +782,20 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
             public void onClick(View v) {
                 String pwd1 = et1.getText().toString().trim();
                 String pwd2 = et2.getText().toString().trim();
-                if(TextUtils.isEmpty(pwd1)){
+                if (TextUtils.isEmpty(pwd1)) {
                     Toast.makeText(Pingmws_SetActivity.this, "请输入密码", Toast.LENGTH_SHORT).show();
                     return;
-                }else if(TextUtils.isEmpty(pwd2)){
+                } else if (TextUtils.isEmpty(pwd2)) {
                     Toast.makeText(Pingmws_SetActivity.this, "请再输入一次密码", Toast.LENGTH_SHORT).show();
                     return;
-                }else if(!pwd1.equals(pwd2)){
+                } else if (!pwd1.equals(pwd2)) {
                     Toast.makeText(Pingmws_SetActivity.this, "两次输入的密码不一致，请重新输入", Toast.LENGTH_SHORT).show();
                     return;
-                }else if(pwd1.equals(pwd2)){
+                } else if (pwd1.equals(pwd2)) {
                     SharedPreferences savedPasswordPref = getSharedPreferences(
                             "savedPassword", 0);
                     SharedPreferences.Editor et = savedPasswordPref.edit();
-                    et.putString("password",pwd1);
+                    et.putString("password", pwd1);
                     et.commit();
                     Toast.makeText(Pingmws_SetActivity.this, "密码修改成功", Toast.LENGTH_SHORT).show();
                     dialog_c.dismiss();
@@ -1171,7 +1186,6 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
     }
 
 
-
     /**
      * 进入软件即检测是否存在配置文件
      */
@@ -1204,7 +1218,7 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
         super.onDestroy();
     }
 
-    private void writeLog(String first){
+    private void writeLog(String first) {
         //写日志到SD卡
         File dir = new File(Environment.getExternalStorageDirectory(), "PMWSLog");
         if (!dir.exists()) {
@@ -1213,19 +1227,18 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
 
         try {
 
-            SimpleDateFormat formatter   =   new  SimpleDateFormat    ("yyyy年MM月dd日  HH:mm:ss ");
-            Date curDate    =   new Date(System.currentTimeMillis());//获取当前时间
-            String    str    =    formatter.format(curDate);
+            SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日  HH:mm:ss ");
+            Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+            String str = formatter.format(curDate);
 
-            FileWriter writer = new FileWriter(dir+"/log.txt",true);
-            writer.write(first+str+";"+"\r\n");
+            FileWriter writer = new FileWriter(dir + "/log.txt", true);
+            writer.write(first + str + ";" + "\r\n");
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
 
         }
     }
-
 
 
 }

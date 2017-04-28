@@ -59,6 +59,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <drawable name="other">#fff00f</drawable>
     <string name="about">关于</string>
+    <string name="accessibility_description">开启辅助服务</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">屏幕卫士</string>
     <string name="back_camera">后置摄像头</string>
