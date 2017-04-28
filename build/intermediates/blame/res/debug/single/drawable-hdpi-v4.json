@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cancel_shape.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\cancel_shape.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\confirm.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\confirm.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cancle.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\cancle.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listview_selected.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\listview_selected.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\singlepos_btnpswok.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\singlepos_btnpswok.xml"
+    }
+]

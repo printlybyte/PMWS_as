@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\menu\\camera1.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\menu\\camera1.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\menu\\super_manager.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\menu\\super_manager.xml"
+    }
+]

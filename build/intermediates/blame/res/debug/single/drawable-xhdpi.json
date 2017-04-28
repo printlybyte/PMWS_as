@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\back01.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\back01.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\folder.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\folder.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\confirm.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\confirm.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\doc.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\doc.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cancel.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\cancel.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\back02.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-xhdpi\\back02.png"
+    }
+]

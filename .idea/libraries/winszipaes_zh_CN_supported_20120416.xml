@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="winszipaes_zh_CN_supported_20120416">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/winszipaes_zh_CN_supported_20120416.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

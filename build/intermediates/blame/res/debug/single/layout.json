@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\item_filepicker.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\item_filepicker.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\fileselect.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\fileselect.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\pref_file_path.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\pref_file_path.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\act_filepicker.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\act_filepicker.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\change_pwd.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\change_pwd.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\select_camera.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\select_camera.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\alert_activity.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\alert_activity.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\select_vedio_time.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\select_vedio_time.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_progress.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\view_custom_progress.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_progress2.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\view_custom_progress2.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\file_row.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\file_row.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_super_manager.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\activity_super_manager.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_password.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\dialog_input_password.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\pmws_set.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\pmws_set.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog_text_entry.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\alert_dialog_text_entry.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\select_filepath.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\select_filepath.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\singlepos_reg.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\singlepos_reg.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_setup_pwd.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\dialog_setup_pwd.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_camera.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\activity_main.xml"
+    }
+]

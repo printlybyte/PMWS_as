@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\singlepos_pswblank.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\singlepos_pswblank.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_notification_start.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\ic_notification_start.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\file_icon_folder.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\file_icon_folder.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\singlepos_pswok.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\singlepos_pswok.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_app.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\ic_app.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\singlepos_pswok_f.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\singlepos_pswok_f.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\detail_obd.png",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\drawable-hdpi\\detail_obd.png"
+    }
+]

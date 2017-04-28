@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:81
+-keep class com.leng.hiddencamera.CameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.leng.hiddencamera.MainActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.leng.hiddencamera.MediaRecordService { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.leng.hiddencamera.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.leng.hiddencamera.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.leng.hiddencamera.SuperManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.leng.hiddencamera.zipthings.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.leng.hiddencamera.zipthings.MyFileManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.leng.hiddencamera.zipthings.SmsReciver { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.leng.hiddencamera.zipthings.ZipFileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.leng.hiddencamera.zipthings.unZipFileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.leng.hiddencamera.zipthings.unZippAlarmReceiver { <init>(...); }
+

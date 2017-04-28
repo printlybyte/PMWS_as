@@ -1,0 +1,3355 @@
+
+----- pid 24510 at 2014-08-25 16:14:55 -----
+Cmdline: com.leng.hiddencamera s -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 3401 allocated classes
+Intern table: 4106 strong; 326 weak
+JNI: CheckJNI is on; pins=1; globals=335 (plus 1 weak)
+Libraries: /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so libjavacore.so (8)
+Heap: 847% free, 19MB/20MB; 42342 objects
+Dumping cumulative Gc timings
+Start Dumping histograms for 564 iterations for concurrent mark sweep
+ProcessMarkStack:	Sum: 4.078117s 99% C.I. 0.005962ms-35.877333ms Avg: 2.410234ms Max: 45.917ms
+MarkConcurrentRoots:	Sum: 566.901ms 99% C.I. 2us-4760us Avg: 502.571us Max: 12031us
+UpdateAndMarkImageModUnionTable:	Sum: 548.959ms 99% C.I. 191us-4516us Avg: 973.331us Max: 5833us
+SweepZygoteSpace:	Sum: 382.168ms 99% C.I. 0.558ms-3.621499ms Avg: 1.070498ms Max: 7.533ms
+SweepMallocSpace:	Sum: 156.420ms 99% C.I. 0.369us-709.555us Avg: 69.335us Max: 884us
+ZygoteModUnionClearCards:	Sum: 137.354ms 99% C.I. 95us-957.499us Avg: 192.372us Max: 3883us
+MarkRootsCheckpoint:	Sum: 114.758ms 99% C.I. 23us-518us Avg: 101.735us Max: 6732us
+ImageModUnionClearCards:	Sum: 104.310ms 99% C.I. 55us-438.999us Avg: 92.473us Max: 702us
+FinishPhase:	Sum: 57.328ms 99% C.I. 25us-509us Avg: 101.645us Max: 4502us
+ScanGrayZygoteSpaceObjects:	Sum: 45.078ms 99% C.I. 67us-582.249us Avg: 126.268us Max: 1804us
+AllocSpaceClearCards:	Sum: 40.671ms 99% C.I. 0.279us-112.363us Avg: 18.027us Max: 961us
+(Paused)ScanGrayZygoteSpaceObjects:	Sum: 40.641ms 99% C.I. 63us-481us Avg: 113.840us Max: 481us
+MarkStackAsLive:	Sum: 33.093ms 99% C.I. 16us-436us Avg: 58.675us Max: 6380us
+ScanGrayImageSpaceObjects:	Sum: 33.032ms 99% C.I. 36us-288.624us Avg: 58.567us Max: 2023us
+(Paused)ScanGrayImageSpaceObjects:	Sum: 31.443ms 99% C.I. 36us-289.749us Avg: 55.750us Max: 567us
+MarkNonThreadRoots:	Sum: 30.538ms 99% C.I. 5us-142.666us Avg: 27.072us Max: 342us
+SweepSystemWeaks:	Sum: 29.762ms 99% C.I. 5us-409us Avg: 52.769us Max: 691us
+MarkingPhase:	Sum: 27.092ms 99% C.I. 24us-203us Avg: 48.035us Max: 233us
+(Paused)ReMarkRoots:	Sum: 21.017ms 99% C.I. 17us-190.899us Avg: 37.264us Max: 296us
+ScanGrayAllocSpaceObjects:	Sum: 19.781ms 99% C.I. 0.274us-98.123us Avg: 17.536us Max: 104us
+(Paused)ScanGrayAllocSpaceObjects:	Sum: 14.535ms 99% C.I. 0.271us-69us Avg: 12.885us Max: 69us
+SwapBitmaps:	Sum: 10.219ms 99% C.I. 5us-98.423us Avg: 18.118us Max: 127us
+(Paused)PausePhase:	Sum: 9.355ms 99% C.I. 10us-96.272us Avg: 16.586us Max: 181us
+ReclaimPhase:	Sum: 9.296ms 99% C.I. 10us-89.153us Avg: 16.482us Max: 92us
+ProcessReferences:	Sum: 3.891ms 99% C.I. 2us-49.794us Avg: 3.449us Max: 102us
+EnqueueFinalizerReferences:	Sum: 3.361ms 99% C.I. 3us-49.927us Avg: 5.959us Max: 114us
+RevokeAllThreadLocalAllocationStacks:	Sum: 3.237ms 99% C.I. 2us-54.500us Avg: 5.739us Max: 127us
+RecursiveMark:	Sum: 2.385ms 99% C.I. 2us-20us Avg: 4.228us Max: 20us
+BindBitmaps:	Sum: 1.249ms 99% C.I. 1us-18us Avg: 2.214us Max: 18us
+InitializePhase:	Sum: 942us 99% C.I. 0.250us-49.838us Avg: 1.670us Max: 58us
+SwapStacks:	Sum: 670us 99% C.I. 0.250us-10us Avg: 1.187us Max: 10us
+PreSweepingGcVerification:	Sum: 546us 99% C.I. 250ns-49838ns Avg: 968ns Max: 81000ns
+FindDefaultMarkBitmap:	Sum: 476us 99% C.I. 250ns-9000ns Avg: 843ns Max: 9000ns
+UnBindBitmaps:	Sum: 279us 99% C.I. 250ns-5000ns Avg: 494ns Max: 5000ns
+SweepLargeObjects:	Sum: 235us 99% C.I. 250ns-5000ns Avg: 416ns Max: 5000ns
+(Paused)ProcessMarkStack:	Sum: 98us 99% C.I. 250ns-5000ns Avg: 173ns Max: 5000ns
+Done Dumping histograms 
+concurrent mark sweep paused:	Sum: 135.780ms 99% C.I. 108us-1170us Avg: 240.744us Max: 1170us
+concurrent mark sweep total time: 6.559237s mean time: 11.629852ms
+concurrent mark sweep freed: 260638 objects with total size 11MB
+concurrent mark sweep throughput: 39737.5/s / 1780KB/s
+Start Dumping histograms for 1 iterations for marksweep + semispace
+UpdateAndMarkImageModUnionTable:	Sum: 5.057ms 99% C.I. 5.057ms-5.057ms Avg: 5.057ms Max: 5.057ms
+ZygoteModUnionClearCards:	Sum: 2.158ms 99% C.I. 2.158ms-2.158ms Avg: 2.158ms Max: 2.158ms
+ProcessMarkStack:	Sum: 1.493ms 99% C.I. 12us-1481us Avg: 746.500us Max: 1481us
+RecordFree:	Sum: 893us 99% C.I. 893us-893us Avg: 893us Max: 893us
+UpdateAndMarkZygoteModUnionTable:	Sum: 846us 99% C.I. 846us-846us Avg: 846us Max: 846us
+ImageModUnionClearCards:	Sum: 478us 99% C.I. 478us-478us Avg: 478us Max: 478us
+(Paused)RevokeAllThreadLocalBuffers:	Sum: 372us 99% C.I. 182us-190us Avg: 186us Max: 190us
+MarkStackAsLive:	Sum: 183us 99% C.I. 183us-183us Avg: 183us Max: 183us
+AllocSpaceClearCards:	Sum: 62us 99% C.I. 8us-54us Avg: 31us Max: 54us
+SweepSystemWeaks:	Sum: 54us 99% C.I. 54us-54us Avg: 54us Max: 54us
+FinishPhase:	Sum: 46us 99% C.I. 46us-46us Avg: 46us Max: 46us
+(Paused)EnqueueFinalizerReferences:	Sum: 35us 99% C.I. 35us-35us Avg: 35us Max: 35us
+SwapStacks:	Sum: 25us 99% C.I. 25us-25us Avg: 25us Max: 25us
+SweepAllocSpace:	Sum: 22us 99% C.I. 1us-21us Avg: 11us Max: 21us
+BindBitmaps:	Sum: 21us 99% C.I. 21us-21us Avg: 21us Max: 21us
+SwapBitmaps:	Sum: 12us 99% C.I. 12us-12us Avg: 12us Max: 12us
+SweepLargeObjects:	Sum: 8us 99% C.I. 8us-8us Avg: 8us Max: 8us
+(Paused)ProcessReferences:	Sum: 6us 99% C.I. 6us-6us Avg: 6us Max: 6us
+ProcessReferences:	Sum: 5us 99% C.I. 5us-5us Avg: 5us Max: 5us
+InitializePhase:	Sum: 3us 99% C.I. 3us-3us Avg: 3us Max: 3us
+MarkRoots:	Sum: 2us 99% C.I. 2us-2us Avg: 2us Max: 2us
+MarkingPhase:	Sum: 1us 99% C.I. 1us-1us Avg: 1us Max: 1us
+Done Dumping histograms 
+marksweep + semispace paused:	Sum: 13.636ms 99% C.I. 13.636ms-13.636ms Avg: 13.636ms Max: 13.636ms
+marksweep + semispace total time: 11.861ms mean time: 11.861ms
+marksweep + semispace freed: 2374 objects with total size 192KB
+marksweep + semispace throughput: 215818/s / 17MB/s
+Total time spent in GC: 6.571098s
+Mean GC size throughput: 60MB/s
+Mean GC object throughput: 6.3552e+08 objects/s
+Total number of allocations: 4176107568
+Total bytes allocated 418MB
+Total mutator paused time: 149.416us
+Total time waiting for GC to complete: 502.496us
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (14):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=24510 nice=0 cgrp=apps sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 92712185 159392969 353 ) utm=3 stm=6 core=1 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  native: #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0003ee31  /system/lib/libc.so (int+14)
+  native: #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001c97b  /system/lib/libbinder.so (android::IPCThreadState::waitForResponse(android::Parcel*, int*)+38)
+  native: #04 pc 0001cb19  /system/lib/libbinder.so (android::IPCThreadState::transact(int, unsigned int, android::Parcel const&, android::IPCThreadState::transact*, unsigned int)+124)
+  native: #05 pc 00018143  /system/lib/libbinder.so (android::BpBinder::transact(unsigned int, android::Parcel const&, android::BpBinder::transact*, unsigned int)+30)
+  native: #06 pc 00053041  /system/lib/libmedia.so (???)
+  native: #07 pc 0005627b  /system/lib/libmedia.so (android::MediaRecorder::stop(void)+54)
+  native: #08 pc 0001b9af  /system/lib/libmedia_jni.so (???)
+  native: #09 pc 000003c4  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_media_MediaRecorder_stop__+92)
+  at android.media.MediaRecorder.stop(Native method)
+  at com.leng.hiddencamera.MediaRecordService.stopRecording(MediaRecordService.java:481)
+  at com.leng.hiddencamera.MediaRecordService$4.onInfo(MediaRecordService.java:207)
+  at android.media.MediaRecorder$EventHandler.handleMessage(MediaRecorder.java:987)
+  at android.os.Handler.dispatchMessage(Handler.java:102)
+  at android.os.Looper.loop(Looper.java:135)
+  at android.app.ActivityThread.main(ActivityThread.java:5070)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77fb5a8
+  | sysTid=24516 nice=0 cgrp=apps sched=0/0 handle=0xb77faec0
+  | state=S schedstat=( 477448 2150209 5 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7abd3b8
+  | sysTid=24520 nice=0 cgrp=apps sched=0/0 handle=0xb7809458
+  | state=S schedstat=( 405626 50209 8 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0xa13b5000-0xa13bd000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb78127d0
+  | sysTid=24521 nice=0 cgrp=apps sched=0/0 handle=0xb7ac2f30
+  | state=S schedstat=( 326561 23802 3 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa12b2000-0xa12ba000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0xa3e8d2b8 self=0xb7812b10
+  | sysTid=24522 nice=0 cgrp=apps sched=0/0 handle=0xb7abd6f8
+  | state=R schedstat=( 29798023 18035573 28 ) utm=0 stm=2 core=0 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"JDWP" daemon prio=5 tid=6 WaitingInMainDebuggerLoop
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d310 self=0xb7ac5898
+  | sysTid=24523 nice=0 cgrp=apps sched=0/0 handle=0xb7abce78
+  | state=S schedstat=( 1797655 10892137 31 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9c27c000-0x9c284000 stackSize=1016KB
+  native: #00 pc 000382ac  /system/lib/libc.so (__pselect6+20)
+  native: #01 pc 0001543f  /system/lib/libc.so (short+60)
+  native: #02 pc 002d47c4  [heap] (???)
+  (no managed stack frames)
+
+"FinalizerDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d368 self=0xb7abdc70
+  | sysTid=24525 nice=0 cgrp=apps sched=0/0 handle=0xb7abdfb0
+  | state=S schedstat=( 1059479 1760625 13 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9c066000-0x9c06e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3bcca546> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x3bcca546> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d3c0 self=0xb7abe1f8
+  | sysTid=24526 nice=0 cgrp=apps sched=0/0 handle=0xb7abe600
+  | state=S schedstat=( 300625 1479687 4 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9bf5e000-0x9bf66000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2aa1e307> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x2aa1e307> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d418 self=0xb7ac5c60
+  | sysTid=24524 nice=0 cgrp=apps sched=0/0 handle=0xb7abda28
+  | state=S schedstat=( 366355 2181613 5 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9c16e000-0x9c176000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1883fc34> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x1883fc34> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d470 self=0xb7abeed8
+  | sysTid=24528 nice=0 cgrp=apps sched=0/0 handle=0xb7abf350
+  | state=S schedstat=( 12359533 5089687 18 ) utm=0 stm=1 core=2 HZ=100
+  | stack=0x9be44000-0x9be4c000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2b426a5d> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x2b426a5d> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=11 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d4c8 self=0xb7abf7c8
+  | sysTid=24529 nice=0 cgrp=apps sched=0/0 handle=0xb7abfc40
+  | state=S schedstat=( 422863 2426511 6 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9bd36000-0x9bd3e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x089dcfd2> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x089dcfd2> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d520 self=0xb7ac04c0
+  | sysTid=24530 nice=0 cgrp=apps sched=0/0 handle=0xb7ac0128
+  | state=S schedstat=( 6044063 11063904 29 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9bb37000-0x9bb3f000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=13 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d578 self=0xb7ac1130
+  | sysTid=24531 nice=0 cgrp=apps sched=0/0 handle=0xb7ac0ee8
+  | state=S schedstat=( 2147498 2680523 12 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9ba30000-0x9ba38000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_3" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d5d0 self=0xb7ae8000
+  | sysTid=24605 nice=0 cgrp=apps sched=0/0 handle=0xb7ae6000
+  | state=S schedstat=( 1501251 2164427 18 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b7e2000-0x9b7ea000 stackSize=1016KB
+  (no managed stack frames)
+
+----- end 24510 -----
+
+----- pid 792 at 2014-08-25 16:14:55 -----
+Cmdline: system_server p_process -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 5573 allocated classes
+Intern table: 4677 strong; 33409 weak
+JNI: CheckJNI is off; pins=4; globals=1795 (plus 44 weak)
+Libraries: /system/lib/libandroid_servers.so /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libsoundpool.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so /system/lib/libwifi-service.so libjavacore.so (11)
+Heap: 815% free, 39MB/57MB; 292743 objects
+Dumping cumulative Gc timings
+Start Dumping histograms for 3 iterations for concurrent mark sweep
+ProcessMarkStack:	Sum: 179.102ms 99% C.I. 0.009ms-69.926ms Avg: 19.900222ms Max: 69.926ms
+SweepMallocSpace:	Sum: 54.672ms 99% C.I. 0.002666ms-26.858ms Avg: 4.556ms Max: 26.858ms
+MarkRootsCheckpoint:	Sum: 21.821ms 99% C.I. 0.616ms-6.937ms Avg: 3.636833ms Max: 6.937ms
+SweepSystemWeaks:	Sum: 16.563ms 99% C.I. 4.321ms-7.748ms Avg: 5.521ms Max: 7.748ms
+AllocSpaceClearCards:	Sum: 15.422ms 99% C.I. 0.013ms-8.762ms Avg: 1.285166ms Max: 9.155ms
+ScanGrayAllocSpaceObjects:	Sum: 10.508ms 99% C.I. 0.015ms-4.542500ms Avg: 1.751333ms Max: 4.546ms
+SweepLargeObjects:	Sum: 10.314ms 99% C.I. 1.569ms-6.728ms Avg: 3.438ms Max: 6.766ms
+UpdateAndMarkImageModUnionTable:	Sum: 8.489ms 99% C.I. 2ms-3.516ms Avg: 2.829666ms Max: 3.516ms
+MarkNonThreadRoots:	Sum: 6.543ms 99% C.I. 0.089ms-4.683ms Avg: 1.090500ms Max: 4.777ms
+MarkConcurrentRoots:	Sum: 6.473ms 99% C.I. 0.005ms-2.402ms Avg: 1.078833ms Max: 2.402ms
+MarkStackAsLive:	Sum: 4.748ms 99% C.I. 0.203ms-2.723ms Avg: 1.582666ms Max: 2.723ms
+EnqueueFinalizerReferences:	Sum: 3.006ms 99% C.I. 0.443ms-1.366ms Avg: 1.002ms Max: 1.366ms
+SweepZygoteSpace:	Sum: 2.824ms 99% C.I. 874us-1069us Avg: 941.333us Max: 1069us
+(Paused)ScanGrayObjects:	Sum: 1.899ms 99% C.I. 423us-747.750us Avg: 633us Max: 749us
+(Paused)ReMarkRoots:	Sum: 1.809ms 99% C.I. 530us-711us Avg: 603us Max: 711us
+BindBitmaps:	Sum: 1.447ms 99% C.I. 2us-1429us Avg: 482.333us Max: 1442us
+ZygoteModUnionClearCards:	Sum: 1.009ms 99% C.I. 97us-187us Avg: 168.166us Max: 187us
+FinishPhase:	Sum: 904us 99% C.I. 273us-355us Avg: 301.333us Max: 355us
+ImageModUnionClearCards:	Sum: 650us 99% C.I. 64us-125us Avg: 108.333us Max: 125us
+ProcessReferences:	Sum: 522us 99% C.I. 4us-197us Avg: 87us Max: 197us
+ScanGrayZygoteSpaceObjects:	Sum: 379us 99% C.I. 118us-131us Avg: 126.333us Max: 131us
+RevokeAllThreadLocalAllocationStacks:	Sum: 304us 99% C.I. 83us-137us Avg: 101.333us Max: 137us
+MarkingPhase:	Sum: 285us 99% C.I. 61us-157us Avg: 95us Max: 157us
+ScanGrayImageSpaceObjects:	Sum: 236us 99% C.I. 51us-100us Avg: 78.666us Max: 100us
+ReclaimPhase:	Sum: 80us 99% C.I. 24us-29us Avg: 26.666us Max: 29us
+SwapBitmaps:	Sum: 48us 99% C.I. 14us-18us Avg: 16us Max: 18us
+(Paused)PausePhase:	Sum: 47us 99% C.I. 13us-17us Avg: 15.666us Max: 17us
+RecursiveMark:	Sum: 15us 99% C.I. 4us-7us Avg: 5us Max: 7us
+InitializePhase:	Sum: 4us 99% C.I. 1us-2us Avg: 1.333us Max: 2us
+(Paused)ProcessMarkStack:	Sum: 3us 99% C.I. 1us-1us Avg: 1us Max: 1us
+Done Dumping histograms 
+concurrent mark sweep paused:	Sum: 4.248ms 99% C.I. 1.102ms-1.640ms Avg: 1.416ms Max: 1.640ms
+concurrent mark sweep total time: 350.139ms mean time: 116.713ms
+concurrent mark sweep freed: 353575 objects with total size 21MB
+concurrent mark sweep throughput: 1.01021e+06/s / 61MB/s
+Total time spent in GC: 350.139ms
+Mean GC size throughput: 2GB/s
+Mean GC object throughput: 1.19486e+10 objects/s
+Total number of allocations: 4183960274
+Total bytes allocated 861MB
+Total mutator paused time: 4.248us
+Total time waiting for GC to complete: 1.387482926s
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (84):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=792 nice=-2 cgrp=apps sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 21946292387 25394483048 49599 ) utm=1231 stm=963 core=1 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  kernel: (couldn't read /proc/self/task/792/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at com.android.server.SystemServer.run(SystemServer.java:257)
+  at com.android.server.SystemServer.main(SystemServer.java:159)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77fb5a8
+  | sysTid=798 nice=0 cgrp=apps sched=0/0 handle=0xb780f158
+  | state=S schedstat=( 35189378 47430527 180 ) utm=3 stm=0 core=1 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7809458
+  | sysTid=799 nice=0 cgrp=apps sched=0/0 handle=0xb77fa7c8
+  | state=S schedstat=( 38181879 47555938 173 ) utm=2 stm=1 core=2 HZ=100
+  | stack=0xa13b5000-0xa13bd000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77faec0
+  | sysTid=800 nice=0 cgrp=apps sched=0/0 handle=0xb77faab8
+  | state=S schedstat=( 18775993 66318334 170 ) utm=1 stm=0 core=1 HZ=100
+  | stack=0xa12b3000-0xa12bb000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0x783e0080 self=0xb78127d0
+  | sysTid=801 nice=0 cgrp=apps sched=0/0 handle=0xb7812280
+  | state=R schedstat=( 9604286804 1348771686 7269 ) utm=421 stm=539 core=1 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=6 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3080 self=0xb7812b10
+  | sysTid=802 nice=0 cgrp=apps sched=0/0 handle=0xb7aa8090
+  | state=S schedstat=( 614970564 472865786 2054 ) utm=32 stm=29 core=3 HZ=100
+  | stack=0x9c272000-0x9c27a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x39228fc7> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x39228fc7> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e30e0 self=0xb78023b0
+  | sysTid=803 nice=0 cgrp=apps sched=0/0 handle=0xb78026f0
+  | state=S schedstat=( 1913413855 1291016822 7589 ) utm=131 stm=60 core=0 HZ=100
+  | stack=0x9c164000-0x9c16c000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x167009f4> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x167009f4> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3140 self=0xb7802c98
+  | sysTid=804 nice=0 cgrp=apps sched=0/0 handle=0xb7802fd8
+  | state=S schedstat=( 25628376 140595373 475 ) utm=0 stm=2 core=0 HZ=100
+  | stack=0x9c056000-0x9c05e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1774c51d> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x1774c51d> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e31a0 self=0xb78047f0
+  | sysTid=805 nice=0 cgrp=apps sched=0/0 handle=0xb7804b30
+  | state=S schedstat=( 237761 0 4 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9bf48000-0x9bf50000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2234f392> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x2234f392> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3200 self=0xb78035a8
+  | sysTid=806 nice=0 cgrp=apps sched=0/0 handle=0xb78038e8
+  | state=S schedstat=( 570786607 163347249 449 ) utm=50 stm=7 core=3 HZ=100
+  | stack=0x9be3a000-0x9be42000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x27ae6163> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x27ae6163> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=11 Native
+  | group="main" sCount=1 dsCount=0 obj=0x783ff080 self=0xb7804260
+  | sysTid=807 nice=0 cgrp=apps sched=0/0 handle=0xb7803f90
+  | state=S schedstat=( 11325441973 11071513824 45809 ) utm=743 stm=389 core=1 HZ=100
+  | stack=0x9bc38000-0x9bc40000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78407080 self=0xb7ab6198
+  | sysTid=808 nice=0 cgrp=apps sched=0/0 handle=0xb7ab5f50
+  | state=S schedstat=( 11015353151 11061506349 45235 ) utm=715 stm=386 core=1 HZ=100
+  | stack=0x9bb34000-0x9bb3c000 stackSize=1016KB
+  (no managed stack frames)
+
+"SensorService" prio=10 tid=13 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78477080 self=0xb7abf220
+  | sysTid=820 nice=-8 cgrp=apps sched=0/0 handle=0xb7abd8d0
+  | state=S schedstat=( 2312022397 1132170991 24525 ) utm=122 stm=109 core=1 HZ=100
+  | stack=0x9b51a000-0x9b522000 stackSize=1016KB
+  (no managed stack frames)
+
+"android.bg" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0x783f4740 self=0xb7abd040
+  | sysTid=823 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7abd380
+  | state=S schedstat=( 53289243332 36198671039 37358 ) utm=1530 stm=3798 core=0 HZ=100
+  | stack=0x9b314000-0x9b31c000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/823/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"ActivityManager" prio=5 tid=15 TimedWaiting
+  | group="main" sCount=1 dsCount=0 obj=0x783f4890 self=0xb7a92c00
+  | sysTid=824 nice=-2 cgrp=apps sched=0/0 handle=0xb7abd5c8
+  | state=S schedstat=( 31906652397 12330459347 33774 ) utm=1290 stm=1900 core=0 HZ=100
+  | stack=0x9b20c000-0x9b214000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2bd6fb3a> (a com.android.server.am.ActivityManagerService$5)
+  at java.lang.Object.wait(Object.java:416)
+  at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:4074)
+  - locked <0x2bd6fb3a> (a com.android.server.am.ActivityManagerService$5)
+  at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:4051)
+  at com.android.server.am.ActivityManagerService.appNotResponding(ActivityManagerService.java:4290)
+  at com.android.server.am.ActiveServices.serviceTimeout(ActiveServices.java:2313)
+  at com.android.server.am.ActivityManagerService$MainHandler.handleMessage(ActivityManagerService.java:1317)
+  at android.os.Handler.dispatchMessage(Handler.java:102)
+  at android.os.Looper.loop(Looper.java:135)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"FileObserver" prio=5 tid=16 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78501be0 self=0xb7ac5500
+  | sysTid=826 nice=-2 cgrp=apps sched=0/0 handle=0xb7ac4048
+  | state=S schedstat=( 223450464 299007709 1401 ) utm=16 stm=6 core=0 HZ=100
+  | stack=0x9b104000-0x9b10c000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/826/stack)
+  native: #00 pc 00038874  /system/lib/libc.so (long double restrict+12)
+  native: #01 pc 0009c98f  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0001b994  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_os_FileObserver_00024ObserverThread_observe__I+100)
+  at android.os.FileObserver$ObserverThread.observe(Native method)
+  at android.os.FileObserver$ObserverThread.run(FileObserver.java:85)
+
+"android.fg" prio=5 tid=17 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7855c4a0 self=0xb7ac4510
+  | sysTid=827 nice=0 cgrp=apps sched=0/0 handle=0xb7a93228
+  | state=S schedstat=( 635295716 844663696 3731 ) utm=37 stm=26 core=1 HZ=100
+  | stack=0x9affc000-0x9b004000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/827/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"android.ui" prio=5 tid=18 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7855c510 self=0xb7a93a80
+  | sysTid=828 nice=-2 cgrp=apps sched=0/0 handle=0xb7a93f10
+  | state=S schedstat=( 1169987161 1341315028 9826 ) utm=83 stm=33 core=0 HZ=100
+  | stack=0x9aef4000-0x9aefc000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/828/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"android.io" prio=5 tid=19 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7855c580 self=0xb7adb220
+  | sysTid=829 nice=0 cgrp=apps sched=0/0 handle=0xb7adb560
+  | state=S schedstat=( 12404741 27192865 70 ) utm=1 stm=0 core=0 HZ=100
+  | stack=0x9adec000-0x9adf4000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/829/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"android.display" prio=5 tid=20 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7855c5f0 self=0xb7adbdd8
+  | sysTid=830 nice=-4 cgrp=apps sched=0/0 handle=0xb7adc268
+  | state=S schedstat=( 8603132856 5227297982 41152 ) utm=604 stm=256 core=1 HZ=100
+  | stack=0x9ace4000-0x9acec000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/830/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"CpuTracker" prio=5 tid=21 TimedWaiting
+  | group="main" sCount=1 dsCount=0 obj=0x78501d00 self=0xb7adcac0
+  | sysTid=831 nice=-2 cgrp=apps sched=0/0 handle=0xb7adcf50
+  | state=S schedstat=( 962442240 682039528 245 ) utm=40 stm=56 core=0 HZ=100
+  | stack=0x9abdc000-0x9abe4000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x279d9619> (a com.android.server.am.ActivityManagerService$4)
+  at java.lang.Object.wait(Object.java:416)
+  at com.android.server.am.ActivityManagerService$4.run(ActivityManagerService.java:2165)
+  - locked <0x279d9619> (a com.android.server.am.ActivityManagerService$4)
+
+"BatteryStats_wakeupReason" prio=5 tid=22 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7855c740 self=0xb7add6b8
+  | sysTid=832 nice=-2 cgrp=apps sched=0/0 handle=0xb7addaf8
+  | state=S schedstat=( 5391925 535364 46 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9aad4000-0x9aadc000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/832/stack)
+  native: #00 pc 00012c00  /system/lib/libc.so (short+28)
+  native: #01 pc 000163bf  /system/lib/libc.so (__futex_wait_ex+38)
+  native: #02 pc fffffffa  ???
+  at com.android.server.am.BatteryStatsService.nativeWaitWakeup(Native method)
+  at com.android.server.am.BatteryStatsService.access$200(BatteryStatsService.java:54)
+  at com.android.server.am.BatteryStatsService$WakeupReasonThread.run(BatteryStatsService.java:596)
+
+"PackageManager" prio=5 tid=23 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78589cc0 self=0xb7ae09b0
+  | sysTid=833 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7ae0cf0
+  | state=S schedstat=( 13112465812 25206420622 68403 ) utm=985 stm=326 core=2 HZ=100
+  | stack=0x9a9cc000-0x9a9d4000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/833/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"Binder_3" prio=5 tid=24 Native
+  | group="main" sCount=1 dsCount=0 obj=0x787cd080 self=0xb7afac68
+  | sysTid=837 nice=0 cgrp=apps sched=0/0 handle=0xb7af67f8
+  | state=S schedstat=( 11380405714 11381911888 46222 ) utm=728 stm=410 core=1 HZ=100
+  | stack=0x9a81a000-0x9a822000 stackSize=1016KB
+  (no managed stack frames)
+
+"PowerManagerService" prio=5 tid=25 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78550270 self=0xb7ad74a0
+  | sysTid=845 nice=-4 cgrp=apps sched=0/0 handle=0xb7ad6240
+  | state=S schedstat=( 8320058164 5750735679 42753 ) utm=443 stm=389 core=1 HZ=100
+  | stack=0x9a6f8000-0x9a700000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/845/stack)
+  native: #00 pc 00012c00  /system/lib/libc.so (short+28)
+  native: #01 pc 000bbac3  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+98)
+  native: #02 pc 000000fc  ???
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"AlarmManager" prio=5 tid=27 Native
+  | group="main" sCount=1 dsCount=0 obj=0x783e19a0 self=0xb7bfc138
+  | sysTid=847 nice=-2 cgrp=apps sched=0/0 handle=0xb7bdd370
+  | state=S schedstat=( 1668549457 7345421460 4812 ) utm=114 stm=52 core=0 HZ=100
+  | stack=0x9a4e8000-0x9a4f0000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/847/stack)
+  native: #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0003ee31  /system/lib/libc.so (int+14)
+  native: #02 pc 0000a153  /system/lib/libandroid_servers.so (???)
+  native: #03 pc 00248384  /data/dalvik-cache/arm/system@framework@boot.oat (Java_com_android_server_AlarmManagerService_waitForAlarm__J+108)
+  at com.android.server.AlarmManagerService.waitForAlarm(Native method)
+  at com.android.server.AlarmManagerService.access$200(AlarmManagerService.java:66)
+  at com.android.server.AlarmManagerService$AlarmThread.run(AlarmManagerService.java:1419)
+
+"UEventObserver" prio=5 tid=26 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784077a0 self=0xb7adf250
+  | sysTid=849 nice=-2 cgrp=apps sched=0/0 handle=0xb7adf690
+  | state=S schedstat=( 179745025 2664594315 5505 ) utm=13 stm=5 core=1 HZ=100
+  | stack=0x9a5f0000-0x9a5f8000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/849/stack)
+  native: #00 pc 00038e6c  /system/lib/libc.so (__ppoll+20)
+  native: #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  native: #02 pc 00000044  ???
+  at android.os.UEventObserver.nativeWaitForNextEvent(Native method)
+  at android.os.UEventObserver.access$100(UEventObserver.java:41)
+  at android.os.UEventObserver$UEventThread.run(UEventObserver.java:182)
+
+"InputDispatcher" prio=10 tid=28 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784770e0 self=0xb7c135c0
+  | sysTid=850 nice=-8 cgrp=apps sched=0/0 handle=0xb7c13130
+  | state=S schedstat=( 7078029099 3116082893 42066 ) utm=519 stm=188 core=0 HZ=100
+  | stack=0x9a1ea000-0x9a1f2000 stackSize=1016KB
+  (no managed stack frames)
+
+"InputReader" prio=10 tid=29 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78501040 self=0xb7c13a18
+  | sysTid=851 nice=-8 cgrp=apps sched=0/0 handle=0xb7c13378
+  | state=S schedstat=( 972746941 1063948641 11130 ) utm=36 stm=61 core=1 HZ=100
+  | stack=0x9a0ea000-0x9a0f2000 stackSize=1016KB
+  (no managed stack frames)
+
+"MountService" prio=5 tid=30 Native
+  | group="main" sCount=1 dsCount=0 obj=0x787bb190 self=0xb7c36878
+  | sysTid=852 nice=0 cgrp=apps sched=0/0 handle=0xb7c28150
+  | state=S schedstat=( 7627082 9164999 26 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x993d6000-0x993de000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/852/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"VoldConnector" prio=5 tid=31 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78680d60 self=0xb7c35c98
+  | sysTid=853 nice=-2 cgrp=apps sched=0/0 handle=0xb7c35fd8
+  | state=S schedstat=( 4164009 2105000 33 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x992ce000-0x992d6000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/853/stack)
+  native: #00 pc 00039644  /system/lib/libc.so (long double restrict+8)
+  native: #01 pc 0007c173  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0007c30b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00ad81f8  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+160)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x78555070> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:165)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:108)
+  at java.lang.Thread.run(Thread.java:818)
+
+"NetdConnector" prio=5 tid=32 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786ec440 self=0xb7c3bf48
+  | sysTid=855 nice=-2 cgrp=apps sched=0/0 handle=0xb7c2f7b8
+  | state=S schedstat=( 408290302 1061608964 670 ) utm=36 stm=4 core=1 HZ=100
+  | stack=0x991c6000-0x991ce000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/855/stack)
+  native: #00 pc 00039644  /system/lib/libc.so (long double restrict+8)
+  native: #01 pc 0007c173  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0007c30b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00ad81f8  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+160)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x7857be30> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:165)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:108)
+  at java.lang.Thread.run(Thread.java:818)
+
+"NetworkStats" prio=5 tid=33 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7885a8d0 self=0xb7c38550
+  | sysTid=856 nice=0 cgrp=apps sched=0/0 handle=0xb7c3c7d8
+  | state=S schedstat=( 1054902420 808760698 1233 ) utm=88 stm=17 core=1 HZ=100
+  | stack=0x990be000-0x990c6000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/856/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NetworkPolicy" prio=5 tid=34 Native
+  | group="main" sCount=1 dsCount=0 obj=0x788a3da0 self=0xb7c3b7d8
+  | sysTid=857 nice=0 cgrp=apps sched=0/0 handle=0xb7c39bb0
+  | state=S schedstat=( 146898691 235079796 1042 ) utm=7 stm=7 core=1 HZ=100
+  | stack=0x98fb6000-0x98fbe000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/857/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiP2pService" prio=5 tid=35 Native
+  | group="main" sCount=1 dsCount=0 obj=0x788a46d0 self=0xb7c02ba8
+  | sysTid=858 nice=0 cgrp=apps sched=0/0 handle=0xb7c02fa0
+  | state=S schedstat=( 44032132 91493393 184 ) utm=1 stm=3 core=1 HZ=100
+  | stack=0x98eab000-0x98eb3000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/858/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiStateMachine" prio=5 tid=36 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78919da0 self=0xb7c04bd0
+  | sysTid=859 nice=0 cgrp=apps sched=0/0 handle=0xb7c05058
+  | state=S schedstat=( 13454924685 11938923844 17911 ) utm=1261 stm=84 core=1 HZ=100
+  | stack=0x98d7f000-0x98d87000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/859/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiService" prio=5 tid=37 Native
+  | group="main" sCount=1 dsCount=0 obj=0x789a1740 self=0xb7c06ac8
+  | sysTid=860 nice=0 cgrp=apps sched=0/0 handle=0xb7c055b8
+  | state=S schedstat=( 73205641 215840565 754 ) utm=5 stm=3 core=0 HZ=100
+  | stack=0x98c72000-0x98c7a000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/860/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"PasspointStateMachine" prio=5 tid=38 Native
+  | group="main" sCount=1 dsCount=0 obj=0x789b6900 self=0xb7c079b0
+  | sysTid=861 nice=0 cgrp=apps sched=0/0 handle=0xb7c07e00
+  | state=S schedstat=( 3169272 1754062 24 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x98b64000-0x98b6c000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/861/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"ConnectivityServiceThread" prio=5 tid=39 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78a0cb70 self=0xb7c40d28
+  | sysTid=862 nice=0 cgrp=apps sched=0/0 handle=0xb7c41068
+  | state=S schedstat=( 454617041 2205929418 539 ) utm=41 stm=4 core=0 HZ=100
+  | stack=0x98a56000-0x98a5e000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/862/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NsdService" prio=5 tid=40 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78a60860 self=0xb7c42170
+  | sysTid=863 nice=0 cgrp=apps sched=0/0 handle=0xb7c425e8
+  | state=S schedstat=( 1385523 2635051 18 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x98948000-0x98950000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/863/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"mDnsConnector" prio=5 tid=41 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7877f280 self=0xb7c42de8
+  | sysTid=864 nice=-2 cgrp=apps sched=0/0 handle=0xb7c43260
+  | state=S schedstat=( 916613 384479 12 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9883a000-0x98842000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/864/stack)
+  native: #00 pc 00039644  /system/lib/libc.so (long double restrict+8)
+  native: #01 pc 0007c173  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0007c30b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00ad81f8  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+160)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x78717070> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:165)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:108)
+  at java.lang.Thread.run(Thread.java:818)
+
+"ranker" prio=5 tid=42 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78c5d040 self=0xb7c456f8
+  | sysTid=865 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7c45b88
+  | state=S schedstat=( 7002503 231956719 85 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x98718000-0x98720000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/865/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AudioService" prio=5 tid=43 Native
+  | group="main" sCount=1 dsCount=0 obj=0x787cd140 self=0xb7c476d8
+  | sysTid=866 nice=-2 cgrp=apps sched=0/0 handle=0xb7c47b50
+  | state=S schedstat=( 316258088 423711186 5251 ) utm=11 stm=20 core=0 HZ=100
+  | stack=0x98605000-0x9860d000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/866/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.media.AudioService$AudioSystemThread.run(AudioService.java:3278)
+
+"backup" prio=5 tid=44 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78da74a0 self=0xb7c49bf8
+  | sysTid=868 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7c4a070
+  | state=S schedstat=( 93291297 1367373807 888 ) utm=4 stm=5 core=1 HZ=100
+  | stack=0x984f7000-0x984ff000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/868/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Hdmi Control Io Thread" prio=5 tid=46 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7866b740 self=0xb7c4cc70
+  | sysTid=870 nice=0 cgrp=apps sched=0/0 handle=0xb7c4cfb0
+  | state=S schedstat=( 1874011 2712136 18 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5fef8000-0x5ff00000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/870/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"TV input HAL event thread" prio=5 tid=47 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7866bb30 self=0xb7c4d618
+  | sysTid=871 nice=0 cgrp=apps sched=0/0 handle=0xb7c4da90
+  | state=S schedstat=( 1507657 247238 18 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5fdea000-0x5fdf2000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/871/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiWatchdogStateMachine" prio=5 tid=48 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786a3200 self=0xb7c8b980
+  | sysTid=873 nice=0 cgrp=apps sched=0/0 handle=0xb7c8bcc0
+  | state=S schedstat=( 61225567 163742972 771 ) utm=4 stm=2 core=1 HZ=100
+  | stack=0x5d52d000-0x5d535000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/873/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiManager" prio=5 tid=49 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786a3660 self=0xb7c37860
+  | sysTid=874 nice=0 cgrp=apps sched=0/0 handle=0xb7c37cb0
+  | state=S schedstat=( 215396256 1737368208 2322 ) utm=8 stm=13 core=0 HZ=100
+  | stack=0x5d41f000-0x5d427000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/874/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiScanningService" prio=5 tid=50 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786a3890 self=0xb7c8e2c8
+  | sysTid=875 nice=0 cgrp=apps sched=0/0 handle=0xb7c8e740
+  | state=S schedstat=( 7518176 7610413 29 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5d311000-0x5d319000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/875/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"EthernetServiceThread" prio=5 tid=51 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786a3f20 self=0xb7c8d960
+  | sysTid=877 nice=0 cgrp=apps sched=0/0 handle=0xb7c8ddd8
+  | state=S schedstat=( 5122345 3248335 26 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5d203000-0x5d20b000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/877/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"LazyTaskWriterThread" prio=5 tid=45 TimedWaiting
+  | group="main" sCount=1 dsCount=0 obj=0x78501ca0 self=0xb7d05d60
+  | sysTid=895 nice=-2 cgrp=apps sched=0/0 handle=0xb7d060a0
+  | state=S schedstat=( 26761556 43474377 186 ) utm=0 stm=2 core=1 HZ=100
+  | stack=0x5ec40000-0x5ec48000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x122ab6de> (a com.android.server.am.TaskPersister)
+  at java.lang.Object.wait(Object.java:416)
+  at com.android.server.am.TaskPersister$LazyTaskWriterThread.run(TaskPersister.java:279)
+  - locked <0x122ab6de> (a com.android.server.am.TaskPersister)
+
+"AsyncTask #1" prio=5 tid=52 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x789032c0 self=0xb7d079b0
+  | sysTid=898 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7d06af0
+  | state=S schedstat=( 66765413 320023118 386 ) utm=4 stm=2 core=0 HZ=100
+  | stack=0x5eb38000-0x5eb40000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x0d9bb0bf> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x0d9bb0bf> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"UsbService host thread" prio=5 tid=53 Native
+  | group="main" sCount=1 dsCount=0 obj=0x788ed400 self=0xb7c95f30
+  | sysTid=901 nice=-2 cgrp=apps sched=0/0 handle=0xb7c96270
+  | state=S schedstat=( 2643901 107554270 84 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5e932000-0x5e93a000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/901/stack)
+  native: #00 pc 00038874  /system/lib/libc.so (long double restrict+12)
+  native: #01 pc 00001227  /system/lib/libusbhost.so (usb_host_read_event+34)
+  native: #02 pc 00001405  /system/lib/libusbhost.so (usb_host_run+16)
+  native: #03 pc 000126b7  /system/lib/libandroid_servers.so (???)
+  native: #04 pc 000003c4  /data/dalvik-cache/arm/system@framework@boot.oat (Java_com_android_server_usb_UsbHostManager_monitorUsbHostBus__+92)
+  at com.android.server.usb.UsbHostManager.monitorUsbHostBus(Native method)
+  at com.android.server.usb.UsbHostManager.access$000(UsbHostManager.java:46)
+  at com.android.server.usb.UsbHostManager$1.run(UsbHostManager.java:372)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Thread-65" prio=5 tid=54 Native
+  | group="main" sCount=1 dsCount=0 obj=0x788ed460 self=0xb7c964b8
+  | sysTid=902 nice=-2 cgrp=apps sched=0/0 handle=0xb7c967f8
+  | state=S schedstat=( 6995001 119269683 85 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5e827000-0x5e82f000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/902/stack)
+  native: #00 pc 000394f0  /system/lib/libc.so (__accept4+8)
+  native: #01 pc 000009fd  /system/lib/libnetd_client.so (???)
+  native: #02 pc 00013d1d  /system/lib/libc.so (signed char+8)
+  native: #03 pc 0001f4cb  /system/lib/libjavacore.so (???)
+  native: #04 pc 0028b824  /data/dalvik-cache/arm/system@framework@boot.oat (Java_libcore_io_Posix_accept__Ljava_io_FileDescriptor_2Ljava_net_InetSocketAddress_2+140)
+  at libcore.io.Posix.accept(Native method)
+  at libcore.io.BlockGuardOs.accept(BlockGuardOs.java:62)
+  at android.system.Os.accept(Os.java:57)
+  at com.android.server.am.NativeCrashListener.run(NativeCrashListener.java:129)
+
+"pool-1-thread-1" prio=5 tid=55 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x78928c20 self=0xb7c97328
+  | sysTid=904 nice=-2 cgrp=apps sched=0/0 handle=0xb7d07038
+  | state=S schedstat=( 8693907 3991146 18 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x5e71c000-0x5e724000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2ddea38c> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x2ddea38c> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #2" prio=5 tid=56 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x78903320 self=0xb7cd4698
+  | sysTid=957 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7cd49d8
+  | state=S schedstat=( 66556293 226750423 416 ) utm=2 stm=4 core=0 HZ=100
+  | stack=0x5e60f000-0x5e617000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x27e87ad5> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x27e87ad5> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"CaptivePortalTracker" prio=5 tid=57 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7866dc10 self=0xb7cd5c78
+  | sysTid=974 nice=0 cgrp=apps sched=0/0 handle=0xb7cd5fb8
+  | state=S schedstat=( 29691510 49743331 53 ) utm=2 stm=0 core=1 HZ=100
+  | stack=0x5e4fc000-0x5e504000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/974/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"watchdog" prio=5 tid=58 TimedWaiting
+  | group="main" sCount=1 dsCount=0 obj=0x784ff980 self=0xb7cd6410
+  | sysTid=981 nice=-2 cgrp=apps sched=0/0 handle=0xb7cd6750
+  | state=S schedstat=( 313517498 164671204 889 ) utm=12 stm=19 core=0 HZ=100
+  | stack=0x5e3ee000-0x5e3f6000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x292762ea> (a com.android.server.Watchdog)
+  at java.lang.Object.wait(Object.java:416)
+  at com.android.server.Watchdog.run(Watchdog.java:351)
+  - locked <0x292762ea> (a com.android.server.Watchdog)
+
+"SoundPoolThread" prio=5 tid=59 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78a22080 self=0xb7cb9048
+  | sysTid=983 nice=0 cgrp=apps sched=0/0 handle=0xb7cb8d08
+  | state=S schedstat=( 7866718 4673700 53 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x5ccd6000-0x5ccde000 stackSize=1016KB
+  (no managed stack frames)
+
+"SoundPool" prio=5 tid=60 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78a40080 self=0xb7cba500
+  | sysTid=982 nice=0 cgrp=apps sched=0/0 handle=0xb7cb8a18
+  | state=S schedstat=( 123424357 132111819 2392 ) utm=1 stm=11 core=0 HZ=100
+  | stack=0x5de3b000-0x5de43000 stackSize=1016KB
+  (no managed stack frames)
+
+"FLP Service Callback Thread" prio=6 tid=62 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78ce3080 self=0xb7d468c0
+  | sysTid=1037 nice=-2 cgrp=apps sched=0/0 handle=0xb7d46088
+  | state=S schedstat=( 457298849 461589333 1509 ) utm=37 stm=8 core=2 HZ=100
+  | stack=0x59ae5000-0x59aed000 stackSize=1016KB
+  (no managed stack frames)
+
+"NetworkTimeUpdateService" prio=5 tid=63 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78ffdd60 self=0xb7d53020
+  | sysTid=1057 nice=0 cgrp=apps sched=0/0 handle=0xb7d53498
+  | state=S schedstat=( 6698483 22103392 59 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x593dc000-0x593e4000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1057/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiMonitor" prio=5 tid=64 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7885e2e0 self=0xb7d540b8
+  | sysTid=1058 nice=0 cgrp=apps sched=0/0 handle=0xb7d54500
+  | state=S schedstat=( 915804433 2785655369 2275 ) utm=57 stm=34 core=1 HZ=100
+  | stack=0x592d4000-0x592dc000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1058/stack)
+  native: #00 pc 00038e6c  /system/lib/libc.so (__ppoll+20)
+  native: #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  native: #02 pc 25ff3f97  ???
+  at com.android.server.wifi.WifiNative.waitForEventNative(Native method)
+  at com.android.server.wifi.WifiNative.waitForEvent(WifiNative.java:155)
+  at com.android.server.wifi.WifiMonitor$MonitorThread.run(WifiMonitor.java:605)
+
+"Binder_4" prio=5 tid=61 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78d29f20 self=0xb7cb9d98
+  | sysTid=1117 nice=0 cgrp=apps sched=0/0 handle=0xb7cba2b8
+  | state=S schedstat=( 11330934292 11380737356 45794 ) utm=722 stm=411 core=1 HZ=100
+  | stack=0x5cbd8000-0x5cbe0000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_5" prio=5 tid=65 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78d47440 self=0xb7d558a8
+  | sysTid=1123 nice=0 cgrp=apps sched=0/0 handle=0xb7d55660
+  | state=S schedstat=( 11509386022 11352343211 45479 ) utm=745 stm=405 core=0 HZ=100
+  | stack=0x597e8000-0x597f0000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_6" prio=5 tid=66 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78d54080 self=0xb7d47410
+  | sysTid=1124 nice=0 cgrp=apps sched=0/0 handle=0xb7d471c8
+  | state=S schedstat=( 11444601208 10918429299 45652 ) utm=737 stm=407 core=1 HZ=100
+  | stack=0x591c1000-0x591c9000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_7" prio=5 tid=67 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78d692c0 self=0xb7d56e80
+  | sysTid=1127 nice=0 cgrp=apps sched=0/0 handle=0xb7d56c38
+  | state=S schedstat=( 11215507090 11368077694 45763 ) utm=739 stm=382 core=0 HZ=100
+  | stack=0x58fc5000-0x58fcd000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_8" prio=5 tid=68 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78d7b320 self=0xb7d6b0f8
+  | sysTid=1145 nice=0 cgrp=apps sched=0/0 handle=0xb7d6aeb0
+  | state=S schedstat=( 11241103451 10492500239 43828 ) utm=747 stm=377 core=0 HZ=100
+  | stack=0x58ec7000-0x58ecf000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_9" prio=5 tid=69 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78d955c0 self=0xb7d6bca0
+  | sysTid=1146 nice=0 cgrp=apps sched=0/0 handle=0xb7d6ba58
+  | state=S schedstat=( 11490054144 11216174860 45433 ) utm=774 stm=375 core=0 HZ=100
+  | stack=0x58dc9000-0x58dd1000 stackSize=1016KB
+  (no managed stack frames)
+
+"Thread-82" prio=5 tid=70 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7894ae00 self=0xb7d89130
+  | sysTid=1176 nice=0 cgrp=apps sched=0/0 handle=0xb7d89580
+  | state=S schedstat=( 52004527 1951317281 708 ) utm=2 stm=3 core=1 HZ=100
+  | stack=0x586ea000-0x586f2000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1176/stack)
+  native: #00 pc 00038e6c  /system/lib/libc.so (__ppoll+20)
+  native: #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  native: #02 pc 00000efc  /system/lib/libnl.so (???)
+  at com.android.server.wifi.WifiNative.waitForHalEventNative(Native method)
+  at com.android.server.wifi.WifiNative.access$100(WifiNative.java:45)
+  at com.android.server.wifi.WifiNative$MonitorThread.run(WifiNative.java:1101)
+
+"NetworkMonitorNetworkAgentInfo [WIFI ()]" prio=5 tid=71 Native
+  | group="main" sCount=1 dsCount=0 obj=0x787c9740 self=0xb7c92d40
+  | sysTid=1447 nice=0 cgrp=apps sched=0/0 handle=0xb7c91d10
+  | state=S schedstat=( 5376928 24062814 26 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x996cd000-0x996d5000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1447/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"DhcpStateMachine" prio=5 tid=72 Native
+  | group="main" sCount=1 dsCount=0 obj=0x787c9a50 self=0xb7c91f58
+  | sysTid=1448 nice=0 cgrp=apps sched=0/0 handle=0xb7c94240
+  | state=S schedstat=( 16848388 35008385 56 ) utm=1 stm=0 core=1 HZ=100
+  | stack=0x995c5000-0x995cd000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1448/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AsyncTask #3" prio=5 tid=73 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x7879d0e0 self=0xb7c94898
+  | sysTid=1453 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7c94e68
+  | state=S schedstat=( 64384011 328963386 402 ) utm=1 stm=5 core=0 HZ=100
+  | stack=0x5e2e0000-0x5e2e8000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x30e499db> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x30e499db> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #4" prio=5 tid=74 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x7879d140 self=0xb7c283e8
+  | sysTid=1455 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7c28808
+  | state=S schedstat=( 71377653 285096405 419 ) utm=5 stm=2 core=0 HZ=100
+  | stack=0x5e1d8000-0x5e1e0000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x12986c78> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x12986c78> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #5" prio=5 tid=75 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x7879d200 self=0xb7c2ae18
+  | sysTid=1458 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7c2b330
+  | state=S schedstat=( 83269738 553626656 471 ) utm=4 stm=4 core=0 HZ=100
+  | stack=0x5e0d0000-0x5e0d8000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x38c2ef51> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x38c2ef51> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"UsbDebuggingManager" prio=5 tid=77 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7867ff80 self=0xb7d3ffe0
+  | sysTid=1864 nice=0 cgrp=apps sched=0/0 handle=0xb7cb2450
+  | state=S schedstat=( 1336510 125781 14 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x5dd2a000-0x5dd32000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1864/stack)
+  native: #00 pc 00039644  /system/lib/libc.so (long double restrict+8)
+  native: #01 pc 0007c173  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0007c30b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00ad81f8  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+160)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x785200d0> (a java.lang.Object)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:87)
+  at com.android.server.usb.UsbDebuggingManager.listenToSocket(UsbDebuggingManager.java:85)
+  at com.android.server.usb.UsbDebuggingManager.run(UsbDebuggingManager.java:115)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_A" prio=5 tid=76 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786d72c0 self=0xb7d0d768
+  | sysTid=2090 nice=0 cgrp=apps sched=0/0 handle=0xb7d10b90
+  | state=S schedstat=( 11028339163 11293909961 44514 ) utm=699 stm=403 core=1 HZ=100
+  | stack=0x5dc2c000-0x5dc34000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_B" prio=5 tid=78 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78407680 self=0xb7e70560
+  | sysTid=9957 nice=0 cgrp=apps sched=0/0 handle=0xb7c29eb8
+  | state=S schedstat=( 10330580222 10238071178 36992 ) utm=684 stm=349 core=1 HZ=100
+  | stack=0x5d6d2000-0x5d6da000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_C" prio=5 tid=79 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78501160 self=0xb7dadf60
+  | sysTid=9958 nice=0 cgrp=apps sched=0/0 handle=0xb7e1e488
+  | state=S schedstat=( 10016855192 9651421713 36472 ) utm=635 stm=366 core=1 HZ=100
+  | stack=0x5c673000-0x5c67b000 stackSize=1016KB
+  (no managed stack frames)
+
+"NetworkMonitorNetworkAgentInfo [WIFI ()]" prio=5 tid=80 Native
+  | group="main" sCount=1 dsCount=0 obj=0x785822e0 self=0xb7ee7c60
+  | sysTid=12785 nice=0 cgrp=apps sched=0/0 handle=0xb7e1eb98
+  | state=S schedstat=( 1850783 1596771 19 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5be34000-0x5be3c000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/12785/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Binder_D" prio=5 tid=81 Native
+  | group="main" sCount=1 dsCount=0 obj=0x789281a0 self=0xb7cb4e28
+  | sysTid=8388 nice=0 cgrp=apps sched=0/0 handle=0xb7e0a8c0
+  | state=S schedstat=( 773261640 867587056 3758 ) utm=45 stm=32 core=1 HZ=100
+  | stack=0x56beb000-0x56bf3000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_E" prio=5 tid=82 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7894a0e0 self=0xb80ed058
+  | sysTid=8400 nice=0 cgrp=apps sched=0/0 handle=0xb7d31ec0
+  | state=S schedstat=( 971504254 895277461 3826 ) utm=67 stm=30 core=1 HZ=100
+  | stack=0x562cf000-0x562d7000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_F" prio=5 tid=83 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78967080 self=0xb7c2c2a0
+  | sysTid=8401 nice=0 cgrp=apps sched=0/0 handle=0xb7db6100
+  | state=S schedstat=( 752968392 817588633 3543 ) utm=51 stm=24 core=1 HZ=100
+  | stack=0x561d1000-0x561d9000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_10" prio=5 tid=84 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78891260 self=0xb7fde560
+  | sysTid=8808 nice=0 cgrp=apps sched=0/0 handle=0xb7e1dd40
+  | state=S schedstat=( 761045866 756072658 3416 ) utm=45 stm=31 core=0 HZ=100
+  | stack=0x99fea000-0x99ff2000 stackSize=1016KB
+  (no managed stack frames)
+
+"system_server" prio=5 (not attached)
+  | sysTid=809 nice=-2 cgrp=apps
+  | state=S schedstat=( 8278125036 9301088311 61343 ) utm=212 stm=615 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/809/stack)
+
+"system_server" prio=5 (not attached)
+  | sysTid=810 nice=-2 cgrp=apps
+  | state=S schedstat=( 15186154 177288799 334 ) utm=0 stm=1 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/810/stack)
+
+"system_server" prio=5 (not attached)
+  | sysTid=811 nice=-2 cgrp=apps
+  | state=S schedstat=( 2009746 5790207 90 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/811/stack)
+
+"system_server" prio=5 (not attached)
+  | sysTid=821 nice=-2 cgrp=apps
+  | state=S schedstat=( 111025445 2593432367 4927 ) utm=7 stm=4 core=1 HZ=100
+  kernel: (couldn't read /proc/self/task/821/stack)
+
+"system_server" prio=5 (not attached)
+  | sysTid=822 nice=-2 cgrp=apps
+  | state=S schedstat=( 3269518518 610338858 5929 ) utm=0 stm=326 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/822/stack)
+
+"FLP Service Cal" prio=5 (not attached)
+  | sysTid=1039 nice=-2 cgrp=apps
+  | state=S schedstat=( 2111666 116966140 80 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1039/stack)
+
+"FLP Service Cal" prio=5 (not attached)
+  | sysTid=1041 nice=-2 cgrp=apps
+  | state=S schedstat=( 13215307 37573539 267 ) utm=1 stm=0 core=1 HZ=100
+  kernel: (couldn't read /proc/self/task/1041/stack)
+
+"FLP Service Cal" prio=5 (not attached)
+  | sysTid=1071 nice=-2 cgrp=apps
+  | state=S schedstat=( 290144669 399607248 1028 ) utm=8 stm=21 core=2 HZ=100
+  kernel: (couldn't read /proc/self/task/1071/stack)
+
+"android.bg" prio=5 (not attached)
+  | sysTid=1174 nice=10 cgrp=apps/bg_non_interactive
+  | state=S schedstat=( 3638646 80094794 28 ) utm=0 stm=0 core=1 HZ=100
+  kernel: (couldn't read /proc/self/task/1174/stack)
+
+"android.bg" prio=5 (not attached)
+  | sysTid=1175 nice=10 cgrp=apps/bg_non_interactive
+  | state=S schedstat=( 90000 0 1 ) utm=0 stm=0 core=1 HZ=100
+  kernel: (couldn't read /proc/self/task/1175/stack)
+
+"android.bg" prio=5 (not attached)
+  | sysTid=1180 nice=10 cgrp=apps/bg_non_interactive
+  | state=S schedstat=( 279427 17297084 2 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1180/stack)
+
+"android.bg" prio=5 (not attached)
+  | sysTid=1181 nice=10 cgrp=apps/bg_non_interactive
+  | state=S schedstat=( 930312 14397657 4 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1181/stack)
+
+"PowerManagerSer" prio=5 (not attached)
+  | sysTid=25584 nice=-4 cgrp=apps
+  | state=S schedstat=( 11321198 62515981 300 ) utm=1 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/25584/stack)
+
+"system_server" prio=5 (not attached)
+  | sysTid=25587 nice=-2 cgrp=apps
+  | state=S schedstat=( 966522684 1507543080 21103 ) utm=38 stm=58 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/25587/stack)
+
+"AudioTrack" prio=5 (not attached)
+  | sysTid=17628 nice=-16 cgrp=apps
+  | state=S schedstat=( 302970 878595 6 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/17628/stack)
+
+"AudioTrack" prio=5 (not attached)
+  | sysTid=17692 nice=-16 cgrp=apps
+  | state=S schedstat=( 323698 5895364 5 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/17692/stack)
+
+"AudioTrack" prio=5 (not attached)
+  | sysTid=17736 nice=-16 cgrp=apps
+  | state=S schedstat=( 388437 418490 5 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/17736/stack)
+
+"AudioTrack" prio=5 (not attached)
+  | sysTid=25342 nice=-16 cgrp=apps
+  | state=S schedstat=( 221563 833282 7 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/25342/stack)
+
+----- end 792 -----
+
+----- pid 1128 at 2014-08-25 16:14:57 -----
+Cmdline: com.android.telecomm ss -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 3359 allocated classes
+Intern table: 4014 strong; 324 weak
+JNI: CheckJNI is off; pins=1; globals=315
+Libraries: /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so libjavacore.so (8)
+Heap: 789% free, 18MB/21MB; 42274 objects
+Dumping cumulative Gc timings
+Total number of allocations: 4175893549
+Total bytes allocated 409MB
+Total mutator paused time: 0
+Total time waiting for GC to complete: 162.967us
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (12):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=1128 nice=0 cgrp=apps sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 62570796 122623066 187 ) utm=3 stm=3 core=0 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  kernel: (couldn't read /proc/self/task/1128/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.app.ActivityThread.main(ActivityThread.java:5070)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77faec0
+  | sysTid=1134 nice=0 cgrp=apps sched=0/0 handle=0xb7aa87a8
+  | state=S schedstat=( 618281 0 11 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77fb5a8
+  | sysTid=1135 nice=0 cgrp=apps sched=0/0 handle=0xb7812280
+  | state=S schedstat=( 551770 0 9 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0xa13b5000-0xa13bd000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7809458
+  | sysTid=1136 nice=0 cgrp=apps sched=0/0 handle=0xb7aa8090
+  | state=S schedstat=( 266354 108750 4 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0xa12b3000-0xa12bb000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0x783de080 self=0xb78127d0
+  | sysTid=1137 nice=0 cgrp=apps sched=0/0 handle=0xb7ac29d8
+  | state=R schedstat=( 122029531 232111614 131 ) utm=8 stm=4 core=0 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=6 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3080 self=0xb7812b10
+  | sysTid=1138 nice=0 cgrp=apps sched=0/0 handle=0xb7abcd38
+  | state=S schedstat=( 796197 173178 5 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9c272000-0x9c27a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2968e10f> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x2968e10f> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e30e0 self=0xb7abcf80
+  | sysTid=1139 nice=0 cgrp=apps sched=0/0 handle=0xb7abd2c0
+  | state=S schedstat=( 567239 347656 7 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9c164000-0x9c16c000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x36d4959c> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x36d4959c> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3140 self=0xb7abd508
+  | sysTid=1140 nice=0 cgrp=apps sched=0/0 handle=0xb7ac5308
+  | state=S schedstat=( 278906 174896 5 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9c056000-0x9c05e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x30c16ba5> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x30c16ba5> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e31a0 self=0xb7ac5780
+  | sysTid=1141 nice=0 cgrp=apps sched=0/0 handle=0xb7ac5bf8
+  | state=S schedstat=( 245105 0 2 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9bf48000-0x9bf50000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x17c54b7a> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x17c54b7a> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3200 self=0xb7ac2d98
+  | sysTid=1142 nice=0 cgrp=apps sched=0/0 handle=0xb7ac30d8
+  | state=S schedstat=( 292397 42500 5 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9be3a000-0x9be42000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x165c7f2b> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x165c7f2b> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=11 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78412080 self=0xb7ac3568
+  | sysTid=1143 nice=0 cgrp=apps sched=0/0 handle=0xb7ac3320
+  | state=S schedstat=( 9727234 33869273 87 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9bc38000-0x9bc40000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78417080 self=0xb7abda28
+  | sysTid=1144 nice=0 cgrp=apps sched=0/0 handle=0xb7ac38a8
+  | state=S schedstat=( 6535881 57446772 135 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9bb34000-0x9bb3c000 stackSize=1016KB
+  (no managed stack frames)
+
+----- end 1128 -----
+
+----- pid 1073 at 2014-08-25 16:14:57 -----
+Cmdline: com.redbend.vdmc  ocess -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 3367 allocated classes
+Intern table: 4113 strong; 339 weak
+JNI: CheckJNI is off; pins=1; globals=318
+Libraries: /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so libjavacore.so (8)
+Heap: 788% free, 18MB/21MB; 43940 objects
+Dumping cumulative Gc timings
+Total number of allocations: 4175892847
+Total bytes allocated 409MB
+Total mutator paused time: 0
+Total time waiting for GC to complete: 154.633us
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (12):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=1073 nice=0 cgrp=apps sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 115120777 110932763 331 ) utm=4 stm=7 core=0 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  kernel: (couldn't read /proc/self/task/1073/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.app.ActivityThread.main(ActivityThread.java:5070)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77faec0
+  | sysTid=1079 nice=0 cgrp=apps sched=0/0 handle=0xb7aa87a8
+  | state=S schedstat=( 778543 1014323 5 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77fb5a8
+  | sysTid=1080 nice=0 cgrp=apps sched=0/0 handle=0xb7812280
+  | state=S schedstat=( 404947 5432552 2 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa13b7000-0xa13bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7809458
+  | sysTid=1081 nice=0 cgrp=apps sched=0/0 handle=0xb7aa8090
+  | state=S schedstat=( 234739 4102813 2 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa12b7000-0xa12bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0x783de080 self=0xb7812a18
+  | sysTid=1082 nice=0 cgrp=apps sched=0/0 handle=0xb78127d0
+  | state=R schedstat=( 145837184 62546512 93 ) utm=8 stm=7 core=2 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=6 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3080 self=0xb7abcd38
+  | sysTid=1083 nice=0 cgrp=apps sched=0/0 handle=0xb7abd078
+  | state=S schedstat=( 537344 60782 1 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9c272000-0x9c27a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x36d4959c> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x36d4959c> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e30e0 self=0xb7abd2c0
+  | sysTid=1084 nice=0 cgrp=apps sched=0/0 handle=0xb7abd600
+  | state=S schedstat=( 605783 6814220 11 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9c164000-0x9c16c000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x30c16ba5> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x30c16ba5> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3140 self=0xb7abda28
+  | sysTid=1085 nice=0 cgrp=apps sched=0/0 handle=0xb7abdd68
+  | state=S schedstat=( 751821 4832085 11 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9c056000-0x9c05e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x17c54b7a> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x17c54b7a> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e31a0 self=0xb7abdfb0
+  | sysTid=1086 nice=0 cgrp=apps sched=0/0 handle=0xb7abe2f0
+  | state=S schedstat=( 406667 273854 2 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9bf48000-0x9bf50000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x165c7f2b> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x165c7f2b> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e3200 self=0xb7abe538
+  | sysTid=1087 nice=0 cgrp=apps sched=0/0 handle=0xb7abe878
+  | state=S schedstat=( 328124 0 4 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9be3a000-0x9be42000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3a636f88> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x3a636f88> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=11 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78412080 self=0xb7abed08
+  | sysTid=1088 nice=0 cgrp=apps sched=0/0 handle=0xb7abeac0
+  | state=S schedstat=( 13555203 58786508 139 ) utm=1 stm=0 core=3 HZ=100
+  | stack=0x9bc38000-0x9bc40000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78416080 self=0xb7abf398
+  | sysTid=1089 nice=0 cgrp=apps sched=0/0 handle=0xb7abf150
+  | state=S schedstat=( 7596145 30987451 130 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9bb34000-0x9bb3c000 stackSize=1016KB
+  (no managed stack frames)
+
+----- end 1073 -----
+
+----- pid 1090 at 2014-08-25 16:14:57 -----
+Cmdline: com.android.nfc > ocess -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 3477 allocated classes
+Intern table: 4152 strong; 346 weak
+JNI: CheckJNI is off; pins=1; globals=341
+Libraries: /system/lib/NfcNci/libnfc_nci_jni.so /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libsoundpool.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so libjavacore.so (10)
+Heap: 509% free, 28MB/32MB; 212025 objects
+Dumping cumulative Gc timings
+Total number of allocations: 4176061715
+Total bytes allocated 419MB
+Total mutator paused time: 0
+Total time waiting for GC to complete: 155.206us
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (23):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=1090 nice=0 cgrp=apps sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 727183997 525534742 1659 ) utm=58 stm=14 core=2 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  kernel: (couldn't read /proc/self/task/1090/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.app.ActivityThread.main(ActivityThread.java:5070)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77faec0
+  | sysTid=1096 nice=0 cgrp=apps sched=0/0 handle=0xb7aa87a8
+  | state=S schedstat=( 801980 2081197 3 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77fb5a8
+  | sysTid=1097 nice=0 cgrp=apps sched=0/0 handle=0xb7812280
+  | state=S schedstat=( 444635 2065260 4 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0xa13b7000-0xa13bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7809458
+  | sysTid=1098 nice=0 cgrp=apps sched=0/0 handle=0xb7aa8090
+  | state=S schedstat=( 268178 2122915 3 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0xa12b7000-0xa12bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0x783de080 self=0xb7812a18
+  | sysTid=1099 nice=0 cgrp=apps sched=0/0 handle=0xb78127d0
+  | state=R schedstat=( 1011697605 291193696 770 ) utm=55 stm=46 core=3 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=6 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e5080 self=0xb7abcd38
+  | sysTid=1100 nice=0 cgrp=apps sched=0/0 handle=0xb7abd078
+  | state=S schedstat=( 446510 0 2 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9c272000-0x9c27a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x17c7872a> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x17c7872a> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e50e0 self=0xb7abd2c0
+  | sysTid=1101 nice=0 cgrp=apps sched=0/0 handle=0xb7abd600
+  | state=S schedstat=( 656250 0 2 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9c164000-0x9c16c000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1f9f891b> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x1f9f891b> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e5140 self=0xb7abda28
+  | sysTid=1102 nice=0 cgrp=apps sched=0/0 handle=0xb7abdd68
+  | state=S schedstat=( 443436 341146 4 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9c056000-0x9c05e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3895cab8> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x3895cab8> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e51a0 self=0xb7abdfb0
+  | sysTid=1103 nice=0 cgrp=apps sched=0/0 handle=0xb7abe2f0
+  | state=S schedstat=( 316771 0 2 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9bf48000-0x9bf50000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3ddb9091> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x3ddb9091> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e5200 self=0xb7abe538
+  | sysTid=1104 nice=0 cgrp=apps sched=0/0 handle=0xb7abe878
+  | state=S schedstat=( 320364 59011 4 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9be3a000-0x9be42000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1daeebf6> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x1daeebf6> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=11 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78413080 self=0xb7abed08
+  | sysTid=1105 nice=0 cgrp=apps sched=0/0 handle=0xb7abeac0
+  | state=S schedstat=( 136025822 307931831 1654 ) utm=6 stm=7 core=1 HZ=100
+  | stack=0x9bc38000-0x9bc40000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78417080 self=0xb7abf398
+  | sysTid=1106 nice=0 cgrp=apps sched=0/0 handle=0xb7abf150
+  | state=S schedstat=( 133920859 281294336 1654 ) utm=5 stm=8 core=0 HZ=100
+  | stack=0x9bb34000-0x9bb3c000 stackSize=1016KB
+  (no managed stack frames)
+
+"AsyncTask #1" prio=5 tid=13 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x785400a0 self=0xb7ad8670
+  | sysTid=1185 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7ad8df0
+  | state=S schedstat=( 44483971 231299207 329 ) utm=1 stm=3 core=0 HZ=100
+  | stack=0x9b931000-0x9b939000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x25a39bf7> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x25a39bf7> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Thread-55" prio=5 tid=15 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78553320 self=0xb7ae1360
+  | sysTid=1262 nice=0 cgrp=apps sched=0/0 handle=0xb7add248
+  | state=S schedstat=( 2271620 2284374 18 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9b02b000-0x9b033000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1262/stack)
+  native: #00 pc 00012c00  /system/lib/libc.so (short+28)
+  native: #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  native: #02 pc 000007b8  ???
+  at com.android.nfc.dhimpl.NativeLlcpServiceSocket.doAccept(Native method)
+  at com.android.nfc.dhimpl.NativeLlcpServiceSocket.accept(NativeLlcpServiceSocket.java:41)
+  at com.android.nfc.snep.SnepServer$ServerThread.run(SnepServer.java:211)
+
+"Thread-56" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78553400 self=0xb7adb5d8
+  | sysTid=1263 nice=0 cgrp=apps sched=0/0 handle=0xb7adc6b0
+  | state=S schedstat=( 3683229 19346300 25 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b829000-0x9b831000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1263/stack)
+  native: #00 pc 00012c00  /system/lib/libc.so (short+28)
+  native: #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  native: #02 pc 000000f4  ???
+  at com.android.nfc.dhimpl.NativeLlcpServiceSocket.doAccept(Native method)
+  at com.android.nfc.dhimpl.NativeLlcpServiceSocket.accept(NativeLlcpServiceSocket.java:41)
+  at com.android.nfc.ndefpush.NdefPushServer$ServerThread.run(NdefPushServer.java:154)
+
+"SoundPoolThread" prio=5 tid=16 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7855e080 self=0xb7ae1c90
+  | sysTid=1266 nice=0 cgrp=apps sched=0/0 handle=0xb7ae19e0
+  | state=S schedstat=( 4880731 18124168 38 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9ae2f000-0x9ae37000 stackSize=1016KB
+  (no managed stack frames)
+
+"Thread-57" prio=5 tid=17 Native
+  | group="main" sCount=1 dsCount=0 obj=0x785534e0 self=0xb7ae16a0
+  | sysTid=1264 nice=0 cgrp=apps sched=0/0 handle=0xb7add000
+  | state=S schedstat=( 2206770 16321564 32 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x9b227000-0x9b22f000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1264/stack)
+  native: #00 pc 00012c00  /system/lib/libc.so (short+28)
+  native: #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  native: #02 pc 0000007c  ???
+  at com.android.nfc.dhimpl.NativeLlcpServiceSocket.doAccept(Native method)
+  at com.android.nfc.dhimpl.NativeLlcpServiceSocket.accept(NativeLlcpServiceSocket.java:41)
+  at com.android.nfc.handover.HandoverServer$ServerThread.run(HandoverServer.java:108)
+
+"SoundPool" prio=5 tid=18 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78562080 self=0xb7aed798
+  | sysTid=1265 nice=0 cgrp=apps sched=0/0 handle=0xb7adb918
+  | state=S schedstat=( 842136 9480469 8 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9af2d000-0x9af35000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_3" prio=5 tid=19 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78567080 self=0xb7aed128
+  | sysTid=1571 nice=0 cgrp=apps sched=0/0 handle=0xb7aecee0
+  | state=S schedstat=( 129014195 280931104 1648 ) utm=5 stm=7 core=3 HZ=100
+  | stack=0x9ad31000-0x9ad39000 stackSize=1016KB
+  (no managed stack frames)
+
+"AsyncTask #2" prio=5 tid=20 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x78540100 self=0xb7aeee70
+  | sysTid=1786 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7aef2c0
+  | state=S schedstat=( 16532409 343445087 362 ) utm=1 stm=0 core=1 HZ=100
+  | stack=0x9a821000-0x9a829000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3838da64> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x3838da64> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #3" prio=5 tid=21 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x785c5880 self=0xb7af2c58
+  | sysTid=8287 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7af2f98
+  | state=S schedstat=( 10842609 148096252 266 ) utm=0 stm=1 core=3 HZ=100
+  | stack=0x9a719000-0x9a721000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1017a4cd> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x1017a4cd> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #4" prio=5 tid=22 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x785c58e0 self=0xb7af35d8
+  | sysTid=8306 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7af3a28
+  | state=S schedstat=( 11989693 314395361 288 ) utm=0 stm=1 core=3 HZ=100
+  | stack=0x9a611000-0x9a619000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x11d5d182> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x11d5d182> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #5" prio=5 tid=23 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x785c5940 self=0xb7af4158
+  | sysTid=8517 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7af4498
+  | state=S schedstat=( 11101886 215678224 290 ) utm=1 stm=0 core=0 HZ=100
+  | stack=0x9a509000-0x9a511000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x0a6c0093> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x0a6c0093> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #1" prio=5 (not attached)
+  | sysTid=1188 nice=0 cgrp=apps
+  | state=S schedstat=( 174134768 479662830 5590 ) utm=1 stm=16 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1188/stack)
+
+"AsyncTask #1" prio=5 (not attached)
+  | sysTid=1190 nice=0 cgrp=apps
+  | state=S schedstat=( 93421737 153653858 5900 ) utm=0 stm=9 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1190/stack)
+
+"AsyncTask #1" prio=5 (not attached)
+  | sysTid=1192 nice=0 cgrp=apps
+  | state=S schedstat=( 242255881 349611619 5276 ) utm=5 stm=19 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1192/stack)
+
+"AsyncTask #1" prio=5 (not attached)
+  | sysTid=1193 nice=0 cgrp=apps
+  | state=S schedstat=( 109301280 458504313 3696 ) utm=0 stm=10 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1193/stack)
+
+"AsyncTask #1" prio=5 (not attached)
+  | sysTid=20376 nice=0 cgrp=apps
+  | state=S schedstat=( 4571983 5893698 90 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/20376/stack)
+
+----- end 1090 -----
+
+
+----- pid 189 at 2014-08-25 16:14:57 -----
+Cmd line: /system/bin/surfaceflinger
+
+"surfaceflinger" sysTid=189
+  #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  #01 pc 00014239  /system/lib/libc.so (epoll_pwait+26)
+  #02 pc 00014247  /system/lib/libc.so (epoll_wait+6)
+  #03 pc 00010b7b  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  #04 pc 00010da9  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  #05 pc 00013cc1  /system/lib/libsurfaceflinger.so
+  #06 pc 00014ccd  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+  #07 pc 0000083d  /system/bin/surfaceflinger
+  #08 pc 0000f64f  /system/lib/libc.so (__libc_init+50)
+  #09 pc 000008d8  /system/bin/surfaceflinger
+
+"Binder_1" sysTid=317
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"DispSync" sysTid=318
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000f947  /system/lib/libsurfaceflinger.so
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_2" sysTid=319
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"hwcUeventThread" sysTid=505
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 00001a31  /system/lib/libhardware_legacy.so (uevent_next_event+52)
+  #03 pc 0000a419  /system/lib/hw/hwcomposer.msm8974.so
+  #04 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #05 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"hwcVsyncThread" sysTid=507
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 0000a8d9  /system/lib/hw/hwcomposer.msm8974.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"GL updater" sysTid=566
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00005cdb  /system/vendor/lib/egl/eglsubAndroid.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"EventThread" sysTid=569
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000109fd  /system/lib/libsurfaceflinger.so
+  #03 pc 00010a81  /system/lib/libsurfaceflinger.so
+  #04 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000e88d  /system/lib/libutils.so
+  #06 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"EventThread" sysTid=570
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000109fd  /system/lib/libsurfaceflinger.so
+  #03 pc 00010a81  /system/lib/libsurfaceflinger.so
+  #04 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000e88d  /system/lib/libutils.so
+  #06 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"EventControl" sysTid=571
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000fd1d  /system/lib/libsurfaceflinger.so
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_3" sysTid=848
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_4" sysTid=1794
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_5" sysTid=1801
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+----- end 189 -----
+iver" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7847cc80 self=0xb7ac77c8
+  | sysTid=1169 nice=0 cgrp=apps sched=0/0 handle=0xb7ac6668
+  | state=S schedstat=( 182620256 1455571159 1973 ) utm=10 stm=8 core=0 HZ=100
+  | stack=0x9b593000-0x9b59b000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1169/stack)
+  native: #00 pc 00039644  /system/lib/libc.so (long double restrict+8)
+  native: #01 pc 0007c173  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0007c30b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00ad81f8  /data/dalvik-cache/arm/system@framework@boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+160)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x784af070> (a java.lang.Object)
+  at com.android.internal.telephony.RIL.readRilMessage(RIL.java:421)
+  at com.android.internal.telephony.RIL.access$400(RIL.java:215)
+  at com.android.internal.telephony.RIL$RILReceiver.run(RIL.java:521)
+  at java.lang.Thread.run(Thread.java:818)
+
+"DcHandlerThread" prio=5 tid=15 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784ac5f0 self=0xb7acf0b8
+  | sysTid=1186 nice=0 cgrp=apps sched=0/0 handle=0xb7ac69b8
+  | state=S schedstat=( 2501354 5843648 27 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b485000-0x9b48d000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1186/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"GsmCellBroadcastHandler" prio=5 tid=16 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784fb7f0 self=0xb7ac6c00
+  | sysTid=1195 nice=0 cgrp=apps sched=0/0 handle=0xb7ac6f40
+  | state=S schedstat=( 2898906 4516045 30 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b377000-0x9b37f000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1195/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"GsmInboundSmsHandler" prio=5 tid=17 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784fba20 self=0xb7ac7c60
+  | sysTid=1196 nice=0 cgrp=apps sched=0/0 handle=0xb7ad0798
+  | state=S schedstat=( 3119584 7251456 28 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b269000-0x9b271000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1196/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"CellBroadcastHandler" prio=5 tid=18 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784fbe10 self=0xb7ac7fa0
+  | sysTid=1199 nice=0 cgrp=apps sched=0/0 handle=0xb7ac82e0
+  | state=S schedstat=( 2967344 3467811 21 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b15b000-0x9b163000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1199/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"CdmaInboundSmsHandler" prio=5 tid=19 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784fbe80 self=0xb7ac8630
+  | sysTid=1200 nice=0 cgrp=apps sched=0/0 handle=0xb7ac8b10
+  | state=S schedstat=( 2274270 3293541 24 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b04d000-0x9b055000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1200/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"CdmaServiceCategoryProgramHandler" prio=5 tid=20 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784fbf60 self=0xb7ac8e60
+  | sysTid=1201 nice=0 cgrp=apps sched=0/0 handle=0xb7ac91a0
+  | state=S schedstat=( 3100629 6993333 36 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9af3f000-0x9af47000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1201/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AsyncQueryWorker" prio=5 tid=21 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7852b4a0 self=0xb7b1ebe0
+  | sysTid=1225 nice=0 cgrp=apps sched=0/0 handle=0xb7b1ef58
+  | state=S schedstat=( 5601767 16012762 33 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9a6ac000-0x9a6b4000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1225/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AsyncTask #1" prio=5 tid=22 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x78551a40 self=0xb7b20410
+  | sysTid=1227 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7b208a0
+  | state=S schedstat=( 9076825 42174477 27 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9a5a4000-0x9a5ac000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1a1148db> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x1a1148db> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AudioTrack" prio=10 tid=23 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78582080 self=0xb7b22c28
+  | sysTid=1232 nice=-16 cgrp=apps sched=1/2 handle=0xb7b22968
+  | state=S schedstat=( 977917 695209 2 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9a4a0000-0x9a4a8000 stackSize=1016KB
+  (no managed stack frames)
+
+"SipService.Executor" prio=5 tid=24 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7859a580 self=0xb7aca440
+  | sysTid=1258 nice=0 cgrp=apps sched=0/0 handle=0xb7aca7d8
+  | state=S schedstat=( 2086716 3008126 23 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x99c7a000-0x99c82000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1258/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiManager" prio=5 tid=25 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7859a660 self=0xb7acb010
+  | sysTid=1259 nice=0 cgrp=apps sched=0/0 handle=0xb7acb4b0
+  | state=S schedstat=( 181288011 1369304181 2412 ) utm=12 stm=7 core=1 HZ=100
+  | stack=0x99f92000-0x99f9a000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1259/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Binder_3" prio=5 tid=26 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78608080 self=0xb7b2a0c8
+  | sysTid=1475 nice=0 cgrp=apps sched=0/0 handle=0xb7b23828
+  | state=S schedstat=( 342646111 1308511301 2786 ) utm=22 stm=12 core=0 HZ=100
+  | stack=0x99e84000-0x99e8c000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_4" prio=5 tid=27 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7899b080 self=0xb7b56300
+  | sysTid=5481 nice=0 cgrp=apps sched=0/0 handle=0xb7b55fb8
+  | state=S schedstat=( 186328205 760835473 1476 ) utm=9 stm=9 core=1 HZ=100
+  | stack=0x99b7c000-0x99b84000 stackSize=1016KB
+  (no managed stack frames)
+
+----- end 1107 -----
+
+----- pid 878 at 2014-08-25 16:14:57 -----
+Cmdline: com.android.systemui ss -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 4163 allocated classes
+Intern table: 4502 strong; 1731 weak
+JNI: CheckJNI is off; pins=1; globals=823
+Libraries: /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libsoundpool.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so libjavacore.so (9)
+Heap: 288% free, 41MB/52MB; 92852 objects
+Dumping cumulative Gc timings
+Start Dumping histograms for 1 iterations for concurrent mark sweep
+ProcessMarkStack:	Sum: 30.746ms 99% C.I. 0.006ms-29.956ms Avg: 10.248666ms Max: 30.268ms
+UpdateAndMarkImageModUnionTable:	Sum: 3.823ms 99% C.I. 3.823ms-3.823ms Avg: 3.823ms Max: 3.823ms
+SweepMallocSpace:	Sum: 3.511ms 99% C.I. 1us-3383us Avg: 877.750us Max: 3439us
+ScanGrayAllocSpaceObjects:	Sum: 1.309ms 99% C.I. 10us-1287.500us Avg: 654.500us Max: 1299us
+MarkConcurrentRoots:	Sum: 976us 99% C.I. 7us-969us Avg: 488us Max: 969us
+SweepZygoteSpace:	Sum: 874us 99% C.I. 874us-874us Avg: 874us Max: 874us
+MarkRootsCheckpoint:	Sum: 808us 99% C.I. 279us-529us Avg: 404us Max: 529us
+(Paused)ScanGrayObjects:	Sum: 604us 99% C.I. 604us-604us Avg: 604us Max: 604us
+SweepLargeObjects:	Sum: 515us 99% C.I. 515us-515us Avg: 515us Max: 515us
+EnqueueFinalizerReferences:	Sum: 509us 99% C.I. 509us-509us Avg: 509us Max: 509us
+AllocSpaceClearCards:	Sum: 498us 99% C.I. 7us-298us Avg: 124.500us Max: 299us
+ZygoteModUnionClearCards:	Sum: 281us 99% C.I. 99us-182us Avg: 140.500us Max: 182us
+MarkStackAsLive:	Sum: 273us 99% C.I. 273us-273us Avg: 273us Max: 273us
+SweepSystemWeaks:	Sum: 271us 99% C.I. 271us-271us Avg: 271us Max: 271us
+(Paused)ReMarkRoots:	Sum: 217us 99% C.I. 217us-217us Avg: 217us Max: 217us
+FinishPhase:	Sum: 205us 99% C.I. 205us-205us Avg: 205us Max: 205us
+ImageModUnionClearCards:	Sum: 186us 99% C.I. 76us-110us Avg: 93us Max: 110us
+MarkNonThreadRoots:	Sum: 132us 99% C.I. 42us-90us Avg: 66us Max: 90us
+ScanGrayZygoteSpaceObjects:	Sum: 130us 99% C.I. 130us-130us Avg: 130us Max: 130us
+ScanGrayImageSpaceObjects:	Sum: 76us 99% C.I. 76us-76us Avg: 76us Max: 76us
+ProcessReferences:	Sum: 51us 99% C.I. 4us-47us Avg: 25.500us Max: 47us
+MarkingPhase:	Sum: 49us 99% C.I. 49us-49us Avg: 49us Max: 49us
+RevokeAllThreadLocalAllocationStacks:	Sum: 29us 99% C.I. 29us-29us Avg: 29us Max: 29us
+ReclaimPhase:	Sum: 22us 99% C.I. 22us-22us Avg: 22us Max: 22us
+SwapBitmaps:	Sum: 15us 99% C.I. 15us-15us Avg: 15us Max: 15us
+(Paused)PausePhase:	Sum: 13us 99% C.I. 13us-13us Avg: 13us Max: 13us
+RecursiveMark:	Sum: 3us 99% C.I. 3us-3us Avg: 3us Max: 3us
+BindBitmaps:	Sum: 2us 99% C.I. 2us-2us Avg: 2us Max: 2us
+(Paused)ProcessMarkStack:	Sum: 1us 99% C.I. 1us-1us Avg: 1us Max: 1us
+FindDefaultMarkBitmap:	Sum: 0 99% C.I. 0ns-0ns Avg: 0ns Max: 0ns
+Done Dumping histograms 
+concurrent mark sweep paused:	Sum: 895us 99% C.I. 895us-895us Avg: 895us Max: 895us
+concurrent mark sweep total time: 46.133ms mean time: 46.133ms
+concurrent mark sweep freed: 17895 objects with total size 1144KB
+concurrent mark sweep throughput: 389022/s / 24MB/s
+Total time spent in GC: 46.133ms
+Mean GC size throughput: 9GB/s
+Mean GC object throughput: 9.05352e+10 objects/s
+Total number of allocations: 4176753889
+Total bytes allocated 466MB
+Total mutator paused time: 895ns
+Total time waiting for GC to complete: 180.518us
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (28):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=878 nice=0 cgrp=apps sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 21679283152 21019840168 66302 ) utm=1847 stm=320 core=1 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  kernel: (couldn't read /proc/self/task/878/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.app.ActivityThread.main(ActivityThread.java:5070)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77faec0
+  | sysTid=884 nice=0 cgrp=apps sched=0/0 handle=0xb780f158
+  | state=S schedstat=( 7628543 11438123 37 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77fb5a8
+  | sysTid=885 nice=0 cgrp=apps sched=0/0 handle=0xb7aa87a8
+  | state=S schedstat=( 2206565 17485990 29 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0xa13b7000-0xa13bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7809458
+  | sysTid=886 nice=0 cgrp=apps sched=0/0 handle=0xb7812280
+  | state=S schedstat=( 2595312 16565155 38 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0xa12b7000-0xa12bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0x783de080 self=0xb78127d0
+  | sysTid=887 nice=0 cgrp=apps sched=0/0 handle=0xb7aa8090
+  | state=R schedstat=( 891798013 154216621 480 ) utm=48 stm=41 core=2 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=6 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e0140 self=0xb7abd508
+  | sysTid=890 nice=0 cgrp=apps sched=0/0 handle=0xb7abd848
+  | state=S schedstat=( 8107089 69294007 129 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9c062000-0x9c06a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3f130e34> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x3f130e34> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e00e0 self=0xb7abcf80
+  | sysTid=889 nice=0 cgrp=apps sched=0/0 handle=0xb7abd2c0
+  | state=S schedstat=( 316879027 270809667 803 ) utm=26 stm=5 core=0 HZ=100
+  | stack=0x9c16a000-0x9c172000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x19a9145d> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x19a9145d> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e0080 self=0xb7812b10
+  | sysTid=888 nice=0 cgrp=apps sched=0/0 handle=0xb7abcd38
+  | state=S schedstat=( 132434214 211478759 507 ) utm=7 stm=6 core=3 HZ=100
+  | stack=0x9c272000-0x9c27a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x0e2031d2> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x0e2031d2> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e01a0 self=0xb7abf140
+  | sysTid=891 nice=0 cgrp=apps sched=0/0 handle=0xb7abda90
+  | state=S schedstat=( 1439062 8423125 9 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9bf50000-0x9bf58000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2d4f62a3> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x2d4f62a3> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x783e0200 self=0xb7abfc48
+  | sysTid=892 nice=0 cgrp=apps sched=0/0 handle=0xb7ac00c0
+  | state=S schedstat=( 166894423 209889117 235 ) utm=14 stm=2 core=3 HZ=100
+  | stack=0x9be3a000-0x9be42000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x27ecd9a0> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x27ecd9a0> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=11 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78414080 self=0xb7ac0a68
+  | sysTid=893 nice=0 cgrp=apps sched=0/0 handle=0xb7ac0760
+  | state=S schedstat=( 972478893 3292911895 9966 ) utm=41 stm=56 core=1 HZ=100
+  | stack=0x9bc38000-0x9bc40000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78418080 self=0xb7ac1b88
+  | sysTid=894 nice=0 cgrp=apps sched=0/0 handle=0xb7ac1940
+  | state=S schedstat=( 955483923 3430055518 9843 ) utm=40 stm=55 core=1 HZ=100
+  | stack=0x9bb34000-0x9bb3c000 stackSize=1016KB
+  (no managed stack frames)
+
+"SoundPoolThread" prio=5 tid=13 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7849d080 self=0xb7ac8240
+  | sysTid=938 nice=0 cgrp=apps sched=0/0 handle=0xb7a93b98
+  | state=S schedstat=( 2353438 2090259 18 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9b52e000-0x9b536000 stackSize=1016KB
+  (no managed stack frames)
+
+"SoundPool" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784a1080 self=0xb7ac8580
+  | sysTid=937 nice=0 cgrp=apps sched=0/0 handle=0xb7a945d0
+  | state=S schedstat=( 636980 233178 3 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9b62c000-0x9b634000 stackSize=1016KB
+  (no managed stack frames)
+
+"SystemUI StorageNotification" prio=5 tid=15 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784ace40 self=0xb7ae3f40
+  | sysTid=963 nice=0 cgrp=apps sched=0/0 handle=0xb7ae2ff0
+  | state=S schedstat=( 3800991 18232031 26 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x9b1a3000-0x9b1ab000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/963/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Binder_3" prio=5 tid=16 Native
+  | group="main" sCount=1 dsCount=0 obj=0x785fc080 self=0xb7b0c590
+  | sysTid=1164 nice=0 cgrp=apps sched=0/0 handle=0xb7b0bf98
+  | state=S schedstat=( 970311293 3225374095 9986 ) utm=42 stm=55 core=1 HZ=100
+  | stack=0x9af64000-0x9af6c000 stackSize=1016KB
+  (no managed stack frames)
+
+"WifiManager" prio=5 tid=17 Native
+  | group="main" sCount=1 dsCount=0 obj=0x785f97f0 self=0xb7b0d8a8
+  | sysTid=1165 nice=0 cgrp=apps sched=0/0 handle=0xb7b0dcc0
+  | state=S schedstat=( 177193087 1502007642 2439 ) utm=7 stm=12 core=1 HZ=100
+  | stack=0x9ae5c000-0x9ae64000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1165/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"QSTileHost" prio=5 tid=18 Native
+  | group="main" sCount=1 dsCount=0 obj=0x78622350 self=0xb7b0fc00
+  | sysTid=1183 nice=0 cgrp=apps sched=0/0 handle=0xb7b0ff78
+  | state=S schedstat=( 68048069 47508852 177 ) utm=5 stm=1 core=2 HZ=100
+  | stack=0x9ad51000-0x9ad59000 stackSize=1056KB
+  kernel: (couldn't read /proc/self/task/1183/stack)
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AsyncTask #1" prio=5 tid=19 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x7860be00 self=0xb7b1b920
+  | sysTid=1198 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7b1bd70
+  | state=S schedstat=( 13165987 57352867 69 ) utm=0 stm=1 core=1 HZ=100
+  | stack=0x9ac46000-0x9ac4e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1be79959> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x1be79959> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"RenderThread" prio=5 tid=20 Native
+  | group="main" sCount=1 dsCount=0 obj=0x786a0080 self=0xb7b1d6f8
+  | sysTid=1202 nice=0 cgrp=apps sched=0/0 handle=0xb7b09b48
+  | state=S schedstat=( 26362638796 18789756424 152964 ) utm=1798 stm=838 core=0 HZ=100
+  | stack=0x9ab45000-0x9ab4d000 stackSize=1016KB
+  (no managed stack frames)
+
+"Recents-TaskResourceLoader" prio=4 tid=21 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x787854a0 self=0xb7bbc8d8
+  | sysTid=1286 nice=0 cgrp=apps sched=0/0 handle=0xb7bbd148
+  | state=S schedstat=( 1545260 2237500 4 ) utm=0 stm=0 core=3 HZ=100
+  | stack=0x99df8000-0x99e00000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x262b991e> (a com.android.systemui.recents.TaskResourceLoadQueue)
+  at com.android.systemui.recents.TaskResourceLoader.run(RecentsTaskLoader.java:269)
+  - locked <0x262b991e> (a com.android.systemui.recents.TaskResourceLoadQueue)
+  at android.os.Handler.handleCallback(Handler.java:738)
+  at android.os.Handler.dispatchMessage(Handler.java:95)
+  at android.os.Looper.loop(Looper.java:135)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"hwuiTask2" prio=5 tid=22 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784141a0 self=0xb7c2f508
+  | sysTid=1330 nice=0 cgrp=apps sched=0/0 handle=0xb7c2a998
+  | state=S schedstat=( 709145973 494496834 5077 ) utm=64 stm=6 core=2 HZ=100
+  | stack=0x98544000-0x9854c000 stackSize=1016KB
+  (no managed stack frames)
+
+"hwuiTask1" prio=5 tid=23 Native
+  | group="main" sCount=1 dsCount=0 obj=0x784180e0 self=0xb7cc19d8
+  | sysTid=1329 nice=0 cgrp=apps sched=0/0 handle=0xb7c6e360
+  | state=S schedstat=( 2996321033 986599779 31971 ) utm=263 stm=36 core=1 HZ=100
+  | stack=0x99cf8000-0x99d00000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_4" prio=5 tid=24 Native
+  | group="main" sCount=1 dsCount=0 obj=0x7860b080 self=0xb7d11aa0
+  | sysTid=5178 nice=0 cgrp=apps sched=0/0 handle=0xb7d11858
+  | state=S schedstat=( 924300775 3312803902 9640 ) utm=37 stm=55 core=0 HZ=100
+  | stack=0x5fa49000-0x5fa51000 stackSize=1016KB
+  (no managed stack frames)
+
+"AsyncTask #2" prio=5 tid=25 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x784a65c0 self=0xb81bdcb0
+  | sysTid=8435 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb80b8138
+  | state=S schedstat=( 4321361 25406246 60 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x5fdda000-0x5fde2000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x0d9ca5f2> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x0d9ca5f2> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #3" prio=5 tid=26 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x784e02c0 self=0xb8204488
+  | sysTid=8447 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7da4690
+  | state=S schedstat=( 1849895 4305887 17 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x5f7e9000-0x5f7f1000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x116e9443> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x116e9443> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #4" prio=5 tid=27 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x7853c260 self=0xb8159828
+  | sysTid=8818 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb82c4930
+  | state=S schedstat=( 2324845 15088853 24 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x5f53a000-0x5f542000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x0c13bac0> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x0c13bac0> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #5" prio=5 tid=28 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x7853cc20 self=0xb81d1e48
+  | sysTid=8833 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb823c5b8
+  | state=S schedstat=( 2442087 25534740 27 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x5f432000-0x5f43a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x17cd33f9> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x17cd33f9> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2017)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GL updater" prio=5 (not attached)
+  | sysTid=20463 nice=-10 cgrp=apps
+  | state=S schedstat=( 2184109 13581302 84 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/20463/stack)
+
+"GL updater" prio=5 (not attached)
+  | sysTid=25388 nice=-10 cgrp=apps
+  | state=S schedstat=( 2368122 782342 95 ) utm=0 stm=0 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/25388/stack)
+
+----- end 878 -----
+
+
+----- pid 192 at 2014-08-25 16:14:58 -----
+Cmd line: /system/bin/mediaserver
+
+"mediaserver" sysTid=192
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00001625  /system/bin/mediaserver
+  #06 pc 0000f64f  /system/lib/libc.so (__libc_init+50)
+  #07 pc 00001890  /system/bin/mediaserver
+
+"ApmTone" sysTid=786
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000077f7  /system/lib/libaudiopolicyservice.so
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"ApmAudio" sysTid=787
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000077f7  /system/lib/libaudiopolicyservice.so
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"ApmOutput" sysTid=788
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000077f7  /system/lib/libaudiopolicyservice.so
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mediaserver" sysTid=790
+  #00 pc 00038874  /system/lib/libc.so (read+12)
+  #01 pc 00004467  /system/vendor/lib/libdiag.so
+  #02 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #03 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"FastMixer" sysTid=791
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 00026aab  /system/lib/libaudioflinger.so
+  #02 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #03 pc 0000e88d  /system/lib/libutils.so
+  #04 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #05 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"AudioOut_2" sysTid=835
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000172a5  /system/lib/libaudioflinger.so
+  #03 pc 000195f1  /system/lib/libaudioflinger.so
+  #04 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000e88d  /system/lib/libutils.so
+  #06 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"AudioOut_4" sysTid=836
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000172a5  /system/lib/libaudioflinger.so
+  #03 pc 000195f1  /system/lib/libaudioflinger.so
+  #04 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000e88d  /system/lib/libutils.so
+  #06 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_1" sysTid=840
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_2" sysTid=867
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_3" sysTid=6096
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_4" sysTid=17430
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001c38b  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001c863  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000207e3  /system/lib/libbinder.so
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_5" sysTid=9305
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000997d  /system/lib/libstagefright_foundation.so (android::ALooperRoster::postAndAwaitResponse(android::sp<android::AMessage> const&, android::sp<android::AMessage>*)+120)
+  #03 pc 0000a351  /system/lib/libstagefright_foundation.so (android::AMessage::postAndAwaitResponse(android::sp<android::AMessage>*)+28)
+  #04 pc 0007490b  /system/lib/libstagefright.so (android::MediaCodecSource::Puller::postSynchronouslyAndReturnError(android::sp<android::AMessage> const&)+14)
+  #05 pc 00074b49  /system/lib/libstagefright.so (android::MediaCodecSource::stop()+40)
+  #06 pc 0006a50f  /system/lib/libstagefright.so (android::MPEG4Writer::Track::stop()+98)
+  #07 pc 0006d99b  /system/lib/libstagefright.so (android::MPEG4Writer::reset()+74)
+  #08 pc 00037d67  /system/lib/libmediaplayerservice.so (android::StagefrightRecorder::stop()+26)
+  #09 pc 0003357d  /system/lib/libmediaplayerservice.so (android::MediaRecorderClient::stop()+40)
+  #10 pc 00053bd1  /system/lib/libmedia.so (android::BnMediaRecorder::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+200)
+  #11 pc 00017b29  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+  #12 pc 0001c767  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+562)
+  #13 pc 0001c883  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+38)
+  #14 pc 0001c8c5  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #15 pc 000207e3  /system/lib/libbinder.so
+  #16 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #17 pc 0000e88d  /system/lib/libutils.so
+  #18 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #19 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"TimedEventQueue" sysTid=24547
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000883c1  /system/lib/libstagefright.so (android::TimedEventQueue::threadEntry()+72)
+  #03 pc 00088529  /system/lib/libstagefright.so (android::TimedEventQueue::ThreadWrapper(void*)+16)
+  #04 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #05 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+".vorbis.decoder" sysTid=24550
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00009059  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+56)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"OMXCallbackDisp" sysTid=24551
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000ee75  /system/lib/libstagefright_omx.so (android::OMX::CallbackDispatcher::loop()+90)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"TimedEventQueue" sysTid=24553
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000883c1  /system/lib/libstagefright.so (android::TimedEventQueue::threadEntry()+72)
+  #03 pc 00088529  /system/lib/libstagefright.so (android::TimedEventQueue::ThreadWrapper(void*)+16)
+  #04 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #05 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+".vorbis.decoder" sysTid=24556
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00009059  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+56)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"OMXCallbackDisp" sysTid=24557
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000ee75  /system/lib/libstagefright_omx.so (android::OMX::CallbackDispatcher::loop()+90)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"Binder_3" sysTid=24584
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00006bc1  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_poll_th" sysTid=24585
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 00006965  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C3Dev-0-Status" sysTid=24586
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000633d3  /system/lib/libcameraservice.so (android::camera3::StatusTracker::threadLoop()+430)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C3Dev-0-ReqQueu" sysTid=24587
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00053041  /system/lib/libcameraservice.so
+  #03 pc 0005ed01  /system/lib/libcameraservice.so (android::Camera3Device::RequestThread::waitForNextRequest()+136)
+  #04 pc 0005ee39  /system/lib/libcameraservice.so
+  #05 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #06 pc 0000e88d  /system/lib/libutils.so
+  #07 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #08 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C2-0-StreamProc" sysTid=24588
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0004e4b5  /system/lib/libcameraservice.so (android::camera2::StreamingProcessor::threadLoop()+44)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C2-0-FrameProc" sysTid=24589
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00053041  /system/lib/libcameraservice.so
+  #03 pc 0005aebd  /system/lib/libcameraservice.so (android::Camera3Device::waitForNextFrame(long long)+48)
+  #04 pc 00042153  /system/lib/libcameraservice.so (android::camera2::FrameProcessorBase::threadLoop()+90)
+  #05 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #06 pc 0000e88d  /system/lib/libutils.so
+  #07 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #08 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C2-0-CaptureSeq" sysTid=24590
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00053041  /system/lib/libcameraservice.so
+  #03 pc 00053079  /system/lib/libcameraservice.so (android::camera2::CaptureSequencer::manageIdle(android::sp<android::Camera2Client>&)+32)
+  #04 pc 00053a19  /system/lib/libcameraservice.so (android::camera2::CaptureSequencer::threadLoop()+104)
+  #05 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #06 pc 0000e88d  /system/lib/libutils.so
+  #07 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #08 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C2-0-JpegProc" sysTid=24591
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0004f7e5  /system/lib/libcameraservice.so (android::camera2::JpegProcessor::threadLoop()+44)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C2-0-CallbkProc" sysTid=24593
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000505e7  /system/lib/libcameraservice.so (android::camera2::CallbackProcessor::threadLoop()+42)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"recorder_looper" sysTid=24882
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000997d  /system/lib/libstagefright_foundation.so (android::ALooperRoster::postAndAwaitResponse(android::sp<android::AMessage> const&, android::sp<android::AMessage>*)+120)
+  #03 pc 0000a351  /system/lib/libstagefright_foundation.so (android::AMessage::postAndAwaitResponse(android::sp<android::AMessage>*)+28)
+  #04 pc 0006f99b  /system/lib/libstagefright.so (android::MediaCodec::PostAndAwaitResponse(android::sp<android::AMessage> const&, android::sp<android::AMessage>*)+6)
+  #05 pc 00070131  /system/lib/libstagefright.so (android::MediaCodec::dequeueOutputBuffer(unsigned int*, unsigned int*, unsigned int*, long long*, unsigned int*, long long)+64)
+  #06 pc 00075c4f  /system/lib/libstagefright.so (android::MediaCodecSource::doMoreWork()+102)
+  #07 pc 00075efb  /system/lib/libstagefright.so (android::MediaCodecSource::onMessageReceived(android::sp<android::AMessage> const&)+166)
+  #08 pc 00076167  /system/lib/libstagefright.so
+  #09 pc 00009737  /system/lib/libstagefright_foundation.so (android::ALooperRoster::deliverMessage(android::sp<android::AMessage> const&)+166)
+  #10 pc 000090f5  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+212)
+  #11 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #12 pc 0000e88d  /system/lib/libutils.so
+  #13 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #14 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"codec_looper" sysTid=24903
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00009059  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+56)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"AudioRecord" sysTid=24918
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0004cc4f  /system/lib/libmedia.so (android::AudioRecord::AudioRecordThread::threadLoop()+118)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"AudioIn_1EF" sysTid=24919
+  #00 pc 00039370  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0003ee31  /system/lib/libc.so (ioctl+14)
+  #02 pc 00002551  /system/lib/libtinyalsa.so (pcm_read+92)
+  #03 pc 000052e0  /system/lib/hw/audio.primary.msm8974.so
+  #04 pc 0001dd33  /system/lib/libaudioflinger.so
+  #05 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #06 pc 0000e88d  /system/lib/libutils.so
+  #07 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #08 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"codec_looper" sysTid=24920
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00009059  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+56)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"e.amrnb.encoder" sysTid=24921
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00009059  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+56)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"OMXCallbackDisp" sysTid=24922
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0000ee75  /system/lib/libstagefright_omx.so (android::OMX::CallbackDispatcher::loop()+90)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"MPEG4Writer" sysTid=24923
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0006e10f  /system/lib/libstagefright.so (android::MPEG4Writer::threadFunc()+166)
+  #03 pc 0006e123  /system/lib/libstagefright.so (android::MPEG4Writer::ThreadWrapper(void*)+2)
+  #04 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #05 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"pull_looper" sysTid=24924
+  #00 pc 00012c04  /system/lib/libc.so (syscall+32)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0005cd09  /system/lib/libstagefright.so (android::CameraSource::read(android::MediaBuffer**, android::MediaSource::ReadOptions const*)+328)
+  #03 pc 00074e0f  /system/lib/libstagefright.so (android::MediaCodecSource::Puller::onMessageReceived(android::sp<android::AMessage> const&)+254)
+  #04 pc 00009737  /system/lib/libstagefright_foundation.so (android::ALooperRoster::deliverMessage(android::sp<android::AMessage> const&)+166)
+  #05 pc 000090f5  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+212)
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"AudioTrack" sysTid=24925
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000428d7  /system/lib/libmedia.so (android::AudioTrack::AudioTrackThread::threadLoop()+38)
+  #03 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000e88d  /system/lib/libutils.so
+  #05 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_poll_th" sysTid=24955
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 00006965  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_jpeg_thread" sysTid=24956
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00003d2d  /system/lib/libmmjpeg_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"cam_data_proc" sysTid=24966
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 000144ef  /system/lib/hw/camera.hammerhead.so (qcamera::QCamera3PostProcessor::dataProcessRoutine(void*)+58)
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_poll_th" sysTid=24968
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 00006965  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"pull_looper" sysTid=24970
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0005621d  /system/lib/libstagefright.so (android::AudioSource::read(android::MediaBuffer**, android::MediaSource::ReadOptions const*)+312)
+  #03 pc 00074e0f  /system/lib/libstagefright.so (android::MediaCodecSource::Puller::onMessageReceived(android::sp<android::AMessage> const&)+254)
+  #04 pc 00009737  /system/lib/libstagefright_foundation.so (android::ALooperRoster::deliverMessage(android::sp<android::AMessage> const&)+166)
+  #05 pc 000090f5  /system/lib/libstagefright_foundation.so (android::ALooper::loop()+212)
+  #06 pc 0000ed05  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000e88d  /system/lib/libutils.so
+  #08 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"cam_stream_proc" sysTid=24976
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0001072f  /system/lib/hw/camera.hammerhead.so (qcamera::QCamera3Stream::dataProcRoutine(void*)+46)
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_stream" sysTid=24983
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00006bc1  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_poll_th" sysTid=24984
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 00006965  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_poll_th" sysTid=24986
+  #00 pc 00038e68  /system/lib/libc.so (__ppoll+16)
+  #01 pc 000153c9  /system/lib/libc.so (poll+32)
+  #02 pc 00006965  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"cam_stream_proc" sysTid=24987
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0001072f  /system/lib/hw/camera.hammerhead.so (qcamera::QCamera3Stream::dataProcRoutine(void*)+46)
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"mm_cam_stream" sysTid=24988
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00006bc1  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"cam_stream_proc" sysTid=24991
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 0001072f  /system/lib/hw/camera.hammerhead.so (qcamera::QCamera3Stream::dataProcRoutine(void*)+46)
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+"C3Dev-0-ReqQueu" sysTid=24992
+  #00 pc 00012c00  /system/lib/libc.so (syscall+28)
+  #01 pc 000159dd  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+52)
+  #02 pc 00006bc1  /system/lib/libmmcamera_interface.so
+  #03 pc 00015b0f  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00013eef  /system/lib/libc.so (__bionic_clone_entry+6)
+
+----- end 192 -----
+
+
+----- pid 205 at 2014-08-25 16:15:00 -----
+Cmd line: /system/bin/sdcard
+
+"sdcard" sysTid=205
+  #00 pc 00038874  /system/lib/libc.so (read+12)
+  #01 pc 000031a5  /system/bin/sdcard
+  #02 pc 000014db  /system/bin/sdcard
+  #03 pc 0000f64f  /system/lib/libc.so (__libc_init+50)
+  #04 pc 00001578  /system/bin/sdcard
+
+"sdcard" sysTid=235
+  #00 pc 00038870  /system/lib/libc.so (read+8)
+  #01 pc 00002a9d  /system/bin/sdcard
+  #02 pc fffffffd  <unknown>
+
+"sdcard" sysTid=236
+  #00 pc 00038870  /system/lib/libc.so (read+8)
+  #01 pc 00002a9d  /system/bin/sdcard
+  #02 pc fffffffd  <unknown>
+
+----- end 205 -----
+
+----- pid 12931 at 2014-08-25 16:15:01 -----
+Cmdline: com.mobile17173.game ss -Xzygote /system/bin --zygote --start-system-serverOriginal command line: <unset>
+Build type: optimized
+Loaded classes: 3447 allocated classes
+Intern table: 4336 strong; 367 weak
+JNI: CheckJNI is on; pins=1; globals=349 (plus 1 weak)
+Libraries: /data/app-lib/com.mobile17173.game-1/libminivenus.so /system/lib/libdrmframework_jni.so /system/lib/libjavacrypto.so /system/lib/libjhead_jni.so /system/lib/libmedia_jni.so /system/lib/librs_jni.so /system/lib/libwebviewchromium.so /system/lib/libwebviewchromium_plat_support.so libjavacore.so (9)
+Heap: 815% free, 19MB/21MB; 60811 objects
+Dumping cumulative Gc timings
+Start Dumping histograms for 2 iterations for marksweep + semispace
+ProcessMarkStack:	Sum: 19.777ms 99% C.I. 0.305ms-14.020ms Avg: 4.944250ms Max: 14.147ms
+RecordFree:	Sum: 1.467ms 99% C.I. 730us-737us Avg: 733.500us Max: 737us
+UpdateAndMarkImageModUnionTable:	Sum: 941us 99% C.I. 429us-512us Avg: 470.500us Max: 512us
+UpdateAndMarkZygoteModUnionTable:	Sum: 931us 99% C.I. 420us-511us Avg: 465.500us Max: 511us
+(Paused)RevokeAllThreadLocalBuffers:	Sum: 450us 99% C.I. 103us-117us Avg: 112.500us Max: 117us
+ZygoteModUnionClearCards:	Sum: 439us 99% C.I. 191us-248us Avg: 219.500us Max: 248us
+(Paused)EnqueueFinalizerReferences:	Sum: 388us 99% C.I. 160us-228us Avg: 194us Max: 228us
+SweepLargeObjects:	Sum: 329us 99% C.I. 162us-167us Avg: 164.500us Max: 167us
+ImageModUnionClearCards:	Sum: 259us 99% C.I. 113us-146us Avg: 129.500us Max: 146us
+(Paused)ProcessReferences:	Sum: 133us 99% C.I. 64us-69us Avg: 66.500us Max: 69us
+SweepSystemWeaks:	Sum: 105us 99% C.I. 52us-53us Avg: 52.500us Max: 53us
+ClearCardTable:	Sum: 83us 99% C.I. 39us-44us Avg: 41.500us Max: 44us
+FinishPhase:	Sum: 68us 99% C.I. 34us-34us Avg: 34us Max: 34us
+MarkStackAsLive:	Sum: 33us 99% C.I. 14us-19us Avg: 16.500us Max: 19us
+SwapStacks:	Sum: 27us 99% C.I. 13us-14us Avg: 13.500us Max: 14us
+SwapBitmaps:	Sum: 16us 99% C.I. 8us-8us Avg: 8us Max: 8us
+ReclaimPhase:	Sum: 10us 99% C.I. 5us-5us Avg: 5us Max: 5us
+ProcessReferences:	Sum: 9us 99% C.I. 4us-5us Avg: 4.500us Max: 5us
+Sweep:	Sum: 7us 99% C.I. 3us-4us Avg: 3.500us Max: 4us
+BindBitmaps:	Sum: 6us 99% C.I. 3us-3us Avg: 3us Max: 3us
+AllocSpaceClearCards:	Sum: 3us 99% C.I. 1us-2us Avg: 1.500us Max: 2us
+MarkRoots:	Sum: 2us 99% C.I. 1us-1us Avg: 1us Max: 1us
+Done Dumping histograms 
+marksweep + semispace paused:	Sum: 27.050ms 99% C.I. 9.221ms-17.829ms Avg: 13.525ms Max: 17.829ms
+marksweep + semispace total time: 25.510ms mean time: 12.755ms
+marksweep + semispace freed: 22525 objects with total size 1010KB
+marksweep + semispace throughput: 901000/s / 39MB/s
+Total time spent in GC: 25.510ms
+Mean GC size throughput: 15GB/s
+Mean GC object throughput: 1.63705e+11 objects/s
+Total number of allocations: 4176178223
+Total bytes allocated 421MB
+Total mutator paused time: 27.050us
+Total time waiting for GC to complete: 161.779481ms
+Approximate GC data structures memory overhead: 0
+DALVIK THREADS (16):
+"main" prio=5 tid=1 Native
+  | group="main" sCount=1 dsCount=0 obj=0x743de000 self=0xb77fe260
+  | sysTid=12931 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb6fc4038
+  | state=S schedstat=( 18613701360 77004606967 125804 ) utm=1085 stm=776 core=1 HZ=100
+  | stack=0xbe5ab000-0xbe5b3000 stackSize=7MB
+  native: #00 pc 00012c00  /system/lib/libc.so (short+28)
+  native: #01 pc 000bbac3  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+98)
+  native: #02 pc 000000fc  ???
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.app.ActivityThread.main(ActivityThread.java:5070)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:836)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:631)
+
+"Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb77faec0
+  | sysTid=12936 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7aa8090
+  | state=S schedstat=( 359168 85208 5 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0xa14b7000-0xa14bf000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7ac2f30
+  | sysTid=12938 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb77fb5a8
+  | state=S schedstat=( 248021 824896 2 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0xa13b5000-0xa13bd000 stackSize=1024KB
+  (no managed stack frames)
+
+"Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+  | group="" sCount=1 dsCount=0 obj=0x0 self=0xb7abd3b8
+  | sysTid=12943 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7809458
+  | state=S schedstat=( 230573 441459 2 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0xa12b4000-0xa12bc000 stackSize=1024KB
+  (no managed stack frames)
+
+"Signal Catcher" daemon prio=5 tid=5 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0xa3e8d1e0 self=0xb7abcd38
+  | sysTid=12944 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7abd6f8
+  | state=R schedstat=( 197329473 74603703 160 ) utm=8 stm=11 core=0 HZ=100
+  | stack=0x9c380000-0x9c388000 stackSize=1016KB
+  (no managed stack frames)
+
+"JDWP" daemon prio=5 tid=6 WaitingInMainDebuggerLoop
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d238 self=0xb7ac5620
+  | sysTid=12945 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7812958
+  | state=S schedstat=( 3534842 20788228 25 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9c27c000-0x9c284000 stackSize=1016KB
+  native: #00 pc 000382ac  /system/lib/libc.so (__pselect6+20)
+  native: #01 pc 0001543f  /system/lib/libc.so (short+60)
+  native: #02 pc 002d454c  [heap] (???)
+  (no managed stack frames)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d290 self=0xb7ac5960
+  | sysTid=12946 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7ac5d20
+  | state=S schedstat=( 8230369 16309738 66 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9c16e000-0x9c176000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x161fb0fb> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x161fb0fb> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=8 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d2e8 self=0xb7abda28
+  | sysTid=12947 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7abdd68
+  | state=S schedstat=( 163701409 240306612 133 ) utm=8 stm=8 core=1 HZ=100
+  | stack=0x9c060000-0x9c068000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x308d0518> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:416)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x308d0518> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=9 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d340 self=0xb7abe7e0
+  | sysTid=12950 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7abec30
+  | state=S schedstat=( 70454526 68631046 107 ) utm=7 stm=0 core=1 HZ=100
+  | stack=0x9be4a000-0x9be52000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2c28ab71> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:299)
+  - locked <0x2c28ab71> (a java.lang.Daemons$HeapTrimmerDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=10 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d398 self=0xb7abe168
+  | sysTid=12949 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7abe598
+  | state=S schedstat=( 2647499 49766461 44 ) utm=0 stm=0 core=1 HZ=100
+  | stack=0x9bf52000-0x9bf5a000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x3bf39d56> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:233)
+  - locked <0x3bf39d56> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:210)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=11 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0xa3e8d3f0 self=0xb7abf2d8
+  | sysTid=12952 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7abf778
+  | state=S schedstat=( 309010 0 4 ) utm=0 stm=0 core=2 HZ=100
+  | stack=0x9bd36000-0x9bd3e000 stackSize=1056KB
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x072e61d7> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:330)
+  - locked <0x072e61d7> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d448 self=0xb7abfff8
+  | sysTid=12953 nice=0 cgrp=apps sched=0/0 handle=0xb7abfdb0
+  | state=S schedstat=( 127023801 383976665 736 ) utm=9 stm=3 core=1 HZ=100
+  | stack=0x9bb34000-0x9bb3c000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=13 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d4a0 self=0xb7ac0bd8
+  | sysTid=12954 nice=0 cgrp=apps sched=0/0 handle=0xb7ac0990
+  | state=S schedstat=( 128376755 498439491 731 ) utm=3 stm=9 core=0 HZ=100
+  | stack=0x9ba30000-0x9ba38000 stackSize=1016KB
+  (no managed stack frames)
+
+"WifiManager" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d4f8 self=0xb7af3e98
+  | sysTid=13021 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7af4258
+  | state=S schedstat=( 89135987 6508076270 1077 ) utm=3 stm=5 core=1 HZ=100
+  | stack=0x9af13000-0x9af1b000 stackSize=1056KB
+  native: #00 pc 00038f9c  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00014239  /system/lib/libc.so (long double+26)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:122)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Thread-1045" prio=5 tid=15 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d5a8 self=0xb7af6058
+  | sysTid=13026 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb7af5ca8
+  | state=S schedstat=( 3778806985 42906830934 75277 ) utm=40 stm=337 core=1 HZ=100
+  | stack=0x9ae15000-0x9ae1d000 stackSize=1016KB
+  (no managed stack frames)
+
+"Binder_3" prio=5 tid=16 Native
+  | group="main" sCount=1 dsCount=0 obj=0xa3e8d600 self=0xb7c54450
+  | sysTid=9181 nice=0 cgrp=apps sched=0/0 handle=0xb7c540b8
+  | state=S schedstat=( 40618702 156957393 216 ) utm=1 stm=3 core=1 HZ=100
+  | stack=0x5c027000-0x5c02f000 stackSize=1016KB
+  (no managed stack frames)
+
+----- end 12931 -----

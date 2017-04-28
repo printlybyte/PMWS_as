@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="59227246b6d6c56757c68298f6c4a6793aadecf3">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_91768e4b219ffd291630ac59bfddd4509b69af0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e383b8ceccc55578ed495386e7462756153213a">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fb1b7fd002962a6cb75ebb8ce70c08f735a655a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\libs\commons-lang3-3.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang3-3.4_17ab0279428bc8ffff8d2b8da9f2158018dd00c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\libs\commons-io-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\2\commons-io-2.2_44c1b9e61ca1f8fefd311ccb543c64df4ffe9a4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\libs\winszipaes_zh_CN_supported_20120416.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a37aa60bbedd6c1773ac297abe3df00c4326632c">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\2\winszipaes_zh_CN_supported_20120416_0e39a716348b97fd7bfb33369000bd05878a960d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\libs\zip4j_1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3e20955923c5b61bfbcd4590a87720643c729695">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\2\zip4j_1.3.2_27dffc093d2e97b0fccf6c39a3928c487b6b7838\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_47088ba4689133df46034b8c43de65a95f72bac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\studioworkspcse\PMWS_as\libs\bcprov-jdk16-140.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="41efb2a94041ddced6d2b3f2f80d218853aac6c9">
+        <dex dex="D:\studioworkspcse\PMWS_as\build\intermediates\transforms\dex\debug\folders\1000\2\bcprov-jdk16-140_a8c25777610506a671488c120c60cb59312de244\classes.dex" />
+    </item>
+
+</items>
