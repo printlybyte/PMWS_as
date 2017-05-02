@@ -98,6 +98,8 @@ public class CameraActivity extends Service {
     private Timer timer;
     private TimerTask task;
 
+       int ChangeCarme;
+
 
     private static final String CONFIG_PATH_FOLDER = "/sdcard/.SPconfig";
     private static final String CONFIG_PATH = "/sdcard/.SPconfig/.config.xml";
@@ -341,11 +343,14 @@ public class CameraActivity extends Service {
         // 是否展示预览
         mPreviewEnabled = sp.getBoolean(SettingsUtil.PREF_KEY_PREVIEW, false);
         String cameraIdStr = sp.getString(SettingsUtil.PREF_KEY_CAMERAID, "");
+        Toast.makeText(this, "测试qwe"+cameraIdStr, Toast.LENGTH_SHORT).show();
         // 选择摄像头
         if (TextUtils.isEmpty(cameraIdStr) || cameraIdStr.equals("后置")) {
             mCameraId = 0;
+            ChangeCarme=123;
         } else if (cameraIdStr.equals("前置")) {
             mCameraId = 1;
+            ChangeCarme=234;
         } else if (cameraIdStr.equals("特殊前置")) {
             mCameraId = 2;
         }
@@ -410,7 +415,6 @@ public class CameraActivity extends Service {
 
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
-
                 // TODO Auto-generated method stub
                 if (keyCode == KeyEvent.KEYCODE_BACK) {
                     mHandler.removeMessages(MSG_RESTART_RECORDING);
@@ -911,7 +915,7 @@ public class CameraActivity extends Service {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-           Log.i(TAG,"接收到了广播");
+            Log.i(TAG,"接收到了广播");
             stopRecording();
             releaseMediaRecorder();
             releaseCamera();
@@ -921,7 +925,18 @@ public class CameraActivity extends Service {
     }
 
 
-
+    public static class ValumeTest extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String qubie = intent.getStringExtra("ABC");
+            if (qubie != null && qubie.equals("KEYCODE_VOLUME_DOWN")) {
+                Toast.makeText(context, "测试KEYCODE_VOLUME_DOWN", Toast.LENGTH_SHORT).show();
+            }
+            if (qubie != null && qubie.equals("KEYCODE_VOLUME_UP")) {
+                Toast.makeText(context, "测试KEYCODE_VOLUME_UP", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 
 
 

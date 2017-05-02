@@ -4,29 +4,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="4323710795080"
+    timestamp="36766570866427"
     token="2311208172048231658"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="368" />
+        duration="299" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="265" />
+        duration="272" />
     <task
         name="verifier"
-        duration="87" />
+        duration="91" />
 
     <artifact
         location="D:\studioworkspcse\PMWS_as\build\outputs\apk\PMWS_as-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="4323710795080"
+        timestamp="36766570866427"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\studioworkspcse\PMWS_as\build\outputs\apk\PMWS_as-debug.apk"

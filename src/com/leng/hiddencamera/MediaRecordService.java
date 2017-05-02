@@ -69,7 +69,7 @@ public class MediaRecordService extends Service {
 	private NotificationManager mNotificationManager;
 
 	private File mFileDir;
-	private int mCameraId = 0;
+	public static int mCameraId = 0;//д╛хо0
 	private boolean mPreviewEnabled = true;
 
 	private boolean mRecordStarted = false;

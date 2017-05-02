@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:2:1-135:12
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:2:1-126:12
 	package
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:3:5-36
 	android:versionName
@@ -92,130 +92,130 @@ ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:30:5-79
 	android:name
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:30:22-76
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:31:5-32:23
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:31:5-86
 	android:name
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:31:22-67
 uses-permission#android.permission.READ_SMS
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:33:5-34:23
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:32:5-83
+	android:name
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:32:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:33:5-67
 	android:name
 		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:33:22-64
-uses-permission#android.permission.SEND_SMS
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:35:5-67
-	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:35:22-64
 uses-permission#android.permission.WRITE_SMS
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:40:5-68
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:37:5-68
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:40:22-65
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:37:22-65
 application
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:46:5-133:19
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:43:5-124:19
 	android:label
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:50:9-41
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:47:9-41
 	android:allowBackup
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:48:9-35
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:45:9-35
 	android:icon
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:49:9-40
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:46:9-40
 	android:theme
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:51:9-40
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:48:9-40
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:47:9-59
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:44:9-59
 activity#com.leng.hiddencamera.Pingmws_SetActivity
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:52:9-60:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:49:9-57:20
 	android:label
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:54:13-33
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:51:13-33
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:53:13-69
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:50:13-69
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:55:13-59:29
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:56:17-69
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:56:25-66
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:58:17-77
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:58:27-74
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:55:27-74
 activity#com.leng.hiddencamera.MainActivity2
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:62:9-72:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:59:9-69:20
 	android:label
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:64:13-45
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:61:13-45
 	android:theme
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:65:13-56
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:62:13-56
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:63:13-63
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:60:13-63
 activity#com.leng.hiddencamera.zipthings.MyFileManager
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:73:10-76:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:70:9-72:68
 	android:theme
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:75:13-56
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:72:13-56
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:74:13-73
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:71:13-73
 activity#com.leng.hiddencamera.zipthings.AlertActivity
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:78:9-80:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:74:9-76:68
 	android:theme
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:79:19-62
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:78:19-58
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:75:13-52
 service#com.leng.hiddencamera.CameraActivity
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:96:9-72
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:92:9-72
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:96:18-69
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:92:18-69
 service#com.leng.hiddencamera.MediaRecordService
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:97:9-76
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:93:9-76
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:97:18-73
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:93:18-73
 activity#com.leng.hiddencamera.SuperManagerActivity
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:101:9-102:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:96:9-88
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:101:19-76
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:96:19-76
 service#com.leng.hiddencamera.zipthings.ZipFileService
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:103:10-104:19
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:98:9-90
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:103:19-80
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:98:18-79
 service#com.leng.hiddencamera.zipthings.unZipFileService
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:105:9-106:19
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:99:9-92
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:105:18-81
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:99:18-81
 receiver#com.leng.hiddencamera.zipthings.AlarmReceiver
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:108:9-109:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:101:9-91
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:108:19-79
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:101:19-79
 receiver#com.leng.hiddencamera.zipthings.unZippAlarmReceiver
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:110:9-111:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:102:9-97
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:110:19-85
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:102:19-85
 receiver#com.leng.hiddencamera.zipthings.SmsReciver
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:112:9-116:20
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:103:9-107:20
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:112:19-76
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:103:19-76
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:113:13-115:29
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:104:13-106:29
 	android:priority
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:113:28-50
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:104:28-50
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:114:17-82
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:105:17-82
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:114:25-79
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:105:25-79
 service#com.leng.hiddencamera.util.RobMoney
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:118:9-131:19
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:109:9-122:19
 	android:enabled
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:120:13-35
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:111:13-35
 	android:label
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:122:13-45
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:113:13-45
 	android:exported
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:121:13-36
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:112:13-36
 	android:permission
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:123:13-79
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:114:13-79
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:119:13-42
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:110:13-42
 intent-filter#android.accessibilityservice.AccessibilityService
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:124:13-126:29
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:115:13-117:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:125:17-92
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:116:17-92
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:125:25-89
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:116:25-89
 meta-data#android.accessibilityservice
-ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:128:13-130:62
+ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:119:13-121:62
 	android:resource
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:130:17-59
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:121:17-59
 	android:name
-		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:129:17-60
+		ADDED from D:\studioworkspcse\PMWS_as\AndroidManifest.xml:120:17-60

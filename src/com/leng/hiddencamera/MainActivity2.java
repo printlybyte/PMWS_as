@@ -1,49 +1,10 @@
 package com.leng.hiddencamera;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.EntityUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-import org.xmlpull.v1.XmlPullParser;
-
-import com.leng.hiddencamera.util.AESTool;
-import com.leng.hiddencamera.util.DCPubic;
-
-import android.R.bool;
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -51,11 +12,14 @@ import android.os.Message;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
-import android.util.Xml;
-import android.view.KeyEvent;
 import android.widget.Toast;
 
-import static com.leng.hiddencamera.SettingsActivity.getVersionName;
+import com.leng.hiddencamera.util.AESTool;
+import com.leng.hiddencamera.util.DCPubic;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity2 extends Activity {
 
@@ -64,12 +28,12 @@ public class MainActivity2 extends Activity {
 	static public String IMEI;
 	private static final String NAMESPACE = "http://guanli.cha365.cn/WebServiceNewVersion.asmx";
 	public static boolean sIsRecording;
-	
-	
+
+
 	private static final String CONFIG_PATH_FOLDER = "/sdcard/.SPconfig";
 	private static final String CONFIG_PATH = "/sdcard/.SPconfig/.config.xml";
 	private String password = "fls94#@AB";
-	
+
 	private Handler mHandler = new Handler() {
 		@Override
 		public void dispatchMessage(Message msg) {
@@ -120,9 +84,10 @@ public class MainActivity2 extends Activity {
 	@SuppressLint("SimpleDateFormat")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		
+
 
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_super_manager);
 		Log.d(getApplicationContext().toString(), "点击了屏幕卫士图标");
 		String jzsj = null;
 		SimpleDateFormat df = new SimpleDateFormat("yyyyMMdd");// 设置日期格式
@@ -182,14 +147,14 @@ public class MainActivity2 extends Activity {
 				finish();
 			}
 		}
-		
-		
-		
-		
-		
+
+
+
+
+
 	}
 
-	
+
 
 	static int[] getDateLength(String fromDate, String toDate) {
 		Calendar c1 = getCal(fromDate);
