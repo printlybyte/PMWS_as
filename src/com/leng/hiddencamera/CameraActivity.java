@@ -410,6 +410,7 @@ public class CameraActivity extends Service {
 
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
+
                 // TODO Auto-generated method stub
                 if (keyCode == KeyEvent.KEYCODE_BACK) {
                     mHandler.removeMessages(MSG_RESTART_RECORDING);
