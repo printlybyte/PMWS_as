@@ -1,4 +1,4 @@
-#Tue May 02 19:08:59 CST 2017
+#Wed May 03 16:53:53 CST 2017
 base.0=D\:\\studioworkspcse\\PMWS_as\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_fb1b7fd002962a6cb75ebb8ce70c08f735a655a5
 renamed.1=classes.dex
 renamed.0=classes2.dex

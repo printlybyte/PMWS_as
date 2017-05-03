@@ -633,13 +633,12 @@ public class Pingmws_SetActivity extends Activity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.volume_up:
-                Toast.makeText(this, "THIS IS CHICK", Toast.LENGTH_SHORT).show();
-
+             //开启辅助服务开启障碍音量键捕获事件
                 try {
                     Intent intent = new Intent(
                             android.provider.Settings.ACTION_ACCESSIBILITY_SETTINGS);
                     startActivity(intent);
-                    Toast.makeText(this, "找到按键监听服务，开启即可", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "找到屏幕卫士，开启即可", Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

@@ -17,6 +17,7 @@ import android.hardware.SensorManager;
 import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
@@ -98,12 +99,11 @@ public class CameraActivity extends Service {
     private Timer timer;
     private TimerTask task;
 
-       int ChangeCarme;
+    int ChangeCarme;
 
 
     private static final String CONFIG_PATH_FOLDER = "/sdcard/.SPconfig";
     private static final String CONFIG_PATH = "/sdcard/.SPconfig/.config.xml";
-
 
 
     // Note3,Note4屏幕预览大小
@@ -116,13 +116,26 @@ public class CameraActivity extends Service {
     private long availableInternalMemorySize;
     private SharedPreferences sp;
 
-    private String TAG="CameraActivity";
+    private String TAG = "CameraActivity";
 
     private StopReCordingReceiver stopReCordingReceiver;
+
+
+    private String CAMERAID_BACK = "后置";
+    private String CAMERAID_FRONT = "前置";
+    private String CAMERAID_SPECIAL = "特殊前置";
+
 
     @Override
     public void onCreate() {
         super.onCreate();
+
+        //静态注册广播
+        CameraActivity.ValumeChangeCarme valumeTest = new CameraActivity.ValumeChangeCarme();
+        IntentFilter intentFilter2 = new IntentFilter();
+        intentFilter2.addAction("asasqwe");
+        registerReceiver(valumeTest, intentFilter2);
+
 
         sp = getSharedPreferences("PMWS_SET", MODE_PRIVATE);
 // 文件存储路径选择
@@ -151,6 +164,9 @@ public class CameraActivity extends Service {
 
             Pingmws_SetActivity.sIsRecording = false;
             MainActivity2.sIsRecording = false;
+            //二次设置为
+
+
             stopSelf();
             return;
         } else {
@@ -187,7 +203,7 @@ public class CameraActivity extends Service {
                         showPreview(true);
                         break;
                     case MSG_SEND_MESSAGE:
-                        if (time < 300 ) {
+                        if (time < 300) {
                             Toast.makeText(CameraActivity.this, "存储空间不足", Toast.LENGTH_SHORT).show();
 
                             stopRecording();
@@ -214,7 +230,7 @@ public class CameraActivity extends Service {
             }
         };
         /*
-		 * TimerTask task = new TimerTask() { public void run() { Message msg =
+         * TimerTask task = new TimerTask() { public void run() { Message msg =
 		 * new Message(); msg.what = 10; mHandler.sendMessage(msg); } };
 		 */
 
@@ -228,8 +244,7 @@ public class CameraActivity extends Service {
         registerReceiver(stopReCordingReceiver, intentFilter);
 
 
-
-        Log.i(TAG,"onCreate");
+        Log.i(TAG, "onCreate");
     }
 
     private void setTimerTask() {
@@ -238,7 +253,7 @@ public class CameraActivity extends Service {
 
             @Override
             public void run() {
-                if(mIsRecording){
+                if (mIsRecording) {
                     time--;
                     Message msg = new Message();
                     msg.what = 10;
@@ -247,7 +262,7 @@ public class CameraActivity extends Service {
 
             }
         };
-        timer.schedule(task,1000, 1000);/* 表示1000毫秒之後，每隔1000毫秒執行一次 */
+        timer.schedule(task, 1000, 1000);/* 表示1000毫秒之後，每隔1000毫秒執行一次 */
     }
 
     @Override
@@ -261,7 +276,7 @@ public class CameraActivity extends Service {
             return super.onStartCommand(intent, flags, startId);
         Pingmws_SetActivity.sIsRecording = true;
         MainActivity2.sIsRecording = true;
-        Log.i(TAG,"设置完 Pingmws_SetActivity.sIsRecording的状态="+ Pingmws_SetActivity.sIsRecording );
+        Log.i(TAG, "设置完 Pingmws_SetActivity.sIsRecording的状态=" + Pingmws_SetActivity.sIsRecording);
         String action = intent.getAction();
         if (ACTION_START.equals(action)) {
             if (mIsRecording) {
@@ -306,6 +321,8 @@ public class CameraActivity extends Service {
 
             Pingmws_SetActivity.sIsRecording = false;
             MainActivity2.sIsRecording = false;
+
+
             stopSelf();
         } else if (ACTION_RECORDING.equals(action)) {
             // 注册完成后，点击屏幕，显示preView
@@ -343,14 +360,16 @@ public class CameraActivity extends Service {
         // 是否展示预览
         mPreviewEnabled = sp.getBoolean(SettingsUtil.PREF_KEY_PREVIEW, false);
         String cameraIdStr = sp.getString(SettingsUtil.PREF_KEY_CAMERAID, "");
-        Toast.makeText(this, "测试qwe"+cameraIdStr, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Test Carme" + cameraIdStr, Toast.LENGTH_SHORT).show();
         // 选择摄像头
         if (TextUtils.isEmpty(cameraIdStr) || cameraIdStr.equals("后置")) {
             mCameraId = 0;
-            ChangeCarme=123;
+            ChangeCarme = 123;
+
+
         } else if (cameraIdStr.equals("前置")) {
             mCameraId = 1;
-            ChangeCarme=234;
+            ChangeCarme = 234;
         } else if (cameraIdStr.equals("特殊前置")) {
             mCameraId = 2;
         }
@@ -368,6 +387,7 @@ public class CameraActivity extends Service {
         // 1000;表示1fen
 
     }
+
 
     private void initView() {
         mWindowLayoutParams = new WindowManager.LayoutParams();
@@ -447,7 +467,7 @@ public class CameraActivity extends Service {
 //        acquireWakeLock();
 
         L.d("Start recording...");
-        if(timer==null){
+        if (timer == null) {
             timer = new Timer();
             setTimerTask();
         }
@@ -479,7 +499,7 @@ public class CameraActivity extends Service {
             // inform user
         }
 
-        Pingmws_SetActivity.sIsRecording=true;
+        Pingmws_SetActivity.sIsRecording = true;
 
     }
 
@@ -506,7 +526,7 @@ public class CameraActivity extends Service {
 //        stopSelf();  //不要停止服务了
 
 //        mNotificationManager.cancel(NOTIFI_ID_SERVICE_STARTED);
-        Pingmws_SetActivity.sIsRecording=false;
+        Pingmws_SetActivity.sIsRecording = false;
 
     }
 
@@ -553,27 +573,7 @@ public class CameraActivity extends Service {
 
         mMediaRecorder.setOrientationHint(getRecorderPlayOrientation(this,
                 mCameraId));
-		/*
-		 * mMediaRecorder.setMaxDuration(mMaxDuration);
-		 * MediaRecorder.OnInfoListener mediaRecordListener = new
-		 * MediaRecorder.OnInfoListener() {
-		 *
-		 * @Override public void onInfo(MediaRecorder mr, int what, int extra) {
-		 * if (what == MediaRecorder.MEDIA_RECORDER_INFO_MAX_DURATION_REACHED) {
-		 * L
-		 * .d("MediaRecorder max duration reached, start recording into anther file"
-		 * ); mHandler.removeMessages(MSG_STOP_RECORDING); Message stopMessage =
-		 * mHandler.obtainMessage(MSG_STOP_RECORDING);
-		 * mHandler.sendMessageDelayed(stopMessage, 2000);
-		 *
-		 * mHandler.removeMessages(MSG_START_RECORDING); Message startMessage =
-		 * mHandler.obtainMessage(MSG_START_RECORDING);
-		 * mHandler.sendMessageDelayed(startMessage, 4000); } } };
-		 *
-		 * mMediaRecorder.setOnInfoListener(mediaRecordListener);
-		 */
 
-        // Step 6: Prepare configured MediaRecorder
         try {
             mMediaRecorder.prepare();
         } catch (IllegalStateException e) {
@@ -587,39 +587,7 @@ public class CameraActivity extends Service {
             return false;
         }
 
-        // mFileDir = SettingsUtil.read(getBaseContext(),
-        // SettingsUtil.PREF_KEY_FILE_PATH, SettingsUtil.DIR_SDCRAD1
-        // + SettingsUtil.DIR_DATA);
-        //
-        // if (mFileDir.startsWith(SettingsUtil.DIR_SDCRAD2)) {
-        // if ( available > 0) {
-        //
-        // Toast.makeText(getBaseContext(), "准备好了", 0).show();
-        // time = time2;
-        // return true;
-        //
-        // } else {
-        //
-        // Toast.makeText(getBaseContext(), "存储空间已用完，请更换SD卡", 0).show();
-        // SettingsActivity.sIsRecording = false;
-        // MainActivity2.sIsRecording = false;
-        // time = time2;
-        // return false;
-        // }
-        // } else {
-        // // TODO判断手机存储卡可用空间大小
-        // if (availableInternalMemorySize > 0) {
-        // Toast.makeText(getBaseContext(), "手机存储准备好了", 0).show();
-        // time = time1;
-        // return true;
-        // } else {
-        // Toast.makeText(getBaseContext(), "手机存储没准备好", 0).show();
-        // SettingsActivity.sIsRecording = false;
-        // MainActivity2.sIsRecording = false;
-        // time = time1;
-        // return false;
-        // }
-        // }
+
         return true;
     }
 
@@ -674,7 +642,7 @@ public class CameraActivity extends Service {
         Notification n = new NotificationCompat.Builder(getBaseContext())
                 .setSmallIcon(R.drawable.ic_notification_start)
                 .setContentTitle("屏幕卫士").setContentText("屏幕卫士, 点击停止").build();
-        n.flags |= Notification.FLAG_NO_CLEAR |Notification.FLAG_ONGOING_EVENT ; //把通知设置为正在运行
+        n.flags |= Notification.FLAG_NO_CLEAR | Notification.FLAG_ONGOING_EVENT; //把通知设置为正在运行
 
         Intent intent = new Intent(ACTION_STOP);
         intent.setClass(getBaseContext(), this.getClass());
@@ -889,7 +857,7 @@ public class CameraActivity extends Service {
     public void onDestroy() {
 //        releaseWakeLock();
 
-        Log.i("CameraActivity","onDestroy");
+        Log.i("CameraActivity", "onDestroy");
 
         if (mSensorListener != null)
             mSensorManager.unregisterListener(mSensorListener);
@@ -915,7 +883,7 @@ public class CameraActivity extends Service {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.i(TAG,"接收到了广播");
+            Log.i(TAG, "接收到了广播");
             stopRecording();
             releaseMediaRecorder();
             releaseCamera();
@@ -924,21 +892,72 @@ public class CameraActivity extends Service {
 
     }
 
-
-    public static class ValumeTest extends BroadcastReceiver {
+        //音量+-键切换surface预览窗口
+    public class ValumeChangeCarme extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
             String qubie = intent.getStringExtra("ABC");
             if (qubie != null && qubie.equals("KEYCODE_VOLUME_DOWN")) {
-                Toast.makeText(context, "测试KEYCODE_VOLUME_DOWN", Toast.LENGTH_SHORT).show();
+                Log.i(TAG,"测试KEYCODE_VOLUME_DOWN");
+                TestsBroadStop();//点击音量键停止视频录制
+
+
+                if (mCameraId == 0) {
+                    SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_FRONT);
+                }
+                if (mCameraId == 1) {
+                    SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_BACK);
+                }
+                if (mCameraId == 2) {
+                    SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_BACK);
+                }
+
+                //启动另外服务开启，点击音量键
+                Intent i = new Intent(getBaseContext(),MyServiceStart.class);
+                startService(i);
+
+
             }
             if (qubie != null && qubie.equals("KEYCODE_VOLUME_UP")) {
-                Toast.makeText(context, "测试KEYCODE_VOLUME_UP", Toast.LENGTH_SHORT).show();
+                Log.i(TAG,"测试KEYCODE_VOLUME_UP");
+                TestsBroadStop();//点击音量键停止正在录制
+
+
+
             }
         }
     }
 
 
+    private void TestsBroadStop() {
+        Toast.makeText(this, "录制已经停止", Toast.LENGTH_SHORT).show();
+        mHandler.removeMessages(MSG_RESTART_RECORDING);
+        mHandler.removeMessages(MSG_START_RECORDING);
+
+        stopRecording();
+
+        releaseMediaRecorder(); // if you are using MediaRecorder,
+        // release it first
+        releaseCamera(); // release the camera immediately on pause event
+
+        mWindowManager.removeView(mRootView);
+        mNotificationManager.cancel(NOTIFI_ID_SERVICE_STARTED);
+
+        Pingmws_SetActivity.sIsRecording = false;
+        MainActivity2.sIsRecording = false;
+        stopSelf();
+    }
 
 
+    private void SaveToSp(String key, String value) {
+        SharedPreferences.Editor et = sp.edit();
+        et.putString(key, value);
+        et.commit();
+    }
+          //移除指定key
+    private void RemoveSp(String key) {
+        SharedPreferences.Editor et = sp.edit();
+        et.remove(key);
+        et.commit();
+    }
 }

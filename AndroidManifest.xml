@@ -28,26 +28,25 @@
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
-    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"></uses-permission>
-
-
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
 
-
-    <!--<uses-permission android:name="android.permission.WAKE_LOCK"/>-->
-    <!--<uses-permission android:name="android.permission.DEVICE_POWER" />-->
-
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK"/> -->
+    <!-- <uses-permission android:name="android.permission.DEVICE_POWER" /> -->
     <application
-        android:name="com.leng.hiddencamera.MyApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_app"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+
+
+
         <activity
-            android:name="com.leng.hiddencamera.Pingmws_SetActivity"
+            android:name=".Pingmws_SetActivity"
             android:label="卫士设置">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,12 +54,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.leng.hiddencamera.MainActivity2"
+            android:name=".MainActivity2"
             android:label="@string/app_name"
             android:theme="@style/Transparent_Activity">
-            <!--android:launchMode ="singleInstance"-->
+
+            <!-- android:launchMode ="singleInstance" -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -68,12 +67,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.leng.hiddencamera.zipthings.MyFileManager"
-            android:theme="@android:style/Theme.Dialog"></activity>
-
+            android:name=".zipthings.MyFileManager"
+            android:theme="@android:style/Theme.Dialog" />
         <activity
             android:name=".zipthings.AlertActivity"
-            android:theme="@android:style/Theme.Dialog"></activity>
+            android:theme="@android:style/Theme.Dialog" />
 
         <!--
         <activity
@@ -85,29 +83,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
         -->
-        <service android:name="com.leng.hiddencamera.CameraActivity" />
-        <service android:name="com.leng.hiddencamera.MediaRecordService" />
+        <service android:name=".CameraActivity" />
+        <service android:name=".MediaRecordService" />
 
+        <activity android:name=".SuperManagerActivity" />
 
-        <activity android:name="com.leng.hiddencamera.SuperManagerActivity"></activity>
+        <service android:name=".zipthings.ZipFileService" />
+        <service android:name=".zipthings.unZipFileService" />
 
-        <service android:name="com.leng.hiddencamera.zipthings.ZipFileService"></service>
-        <service android:name="com.leng.hiddencamera.zipthings.unZipFileService"></service>
-
-        <receiver android:name="com.leng.hiddencamera.zipthings.AlarmReceiver"></receiver>
-        <receiver android:name="com.leng.hiddencamera.zipthings.unZippAlarmReceiver"></receiver>
-        <receiver android:name="com.leng.hiddencamera.zipthings.SmsReciver">
+        <receiver android:name=".zipthings.AlarmReceiver" />
+        <receiver android:name=".zipthings.unZippAlarmReceiver" />
+        <receiver android:name=".zipthings.SmsReciver">
             <intent-filter android:priority="999">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
 
+        <!--无障碍服务配置-->
         <service
-            android:name=".util.RobMoney"
+            android:name=".RobMoney"
             android:enabled="true"
             android:exported="true"
             android:label="@string/app_name"
@@ -121,6 +116,8 @@
                 android:resource="@xml/rob_service_config" />
         </service>
 
+        <!--在启动服务-->
+        <service android:name=".MyServiceStart"></service>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.leng.hiddencamera.util;
+package com.leng.hiddencamera;
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.Intent;
@@ -61,13 +61,12 @@ public class RobMoney extends AccessibilityService {
     public void onCreate() {
         Log.i(TAG, "RobMoney::onCreate");
         // Toast.makeText(this, "RobMoney::onCreate", Toast.LENGTH_SHORT).show();
-        super.onCreate();
 
         //动态注册广播接收器
-        CameraActivity.ValumeTest valumeTest = new  CameraActivity.ValumeTest();
-        IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("asasqwe");
-        registerReceiver(valumeTest, intentFilter);
+//        CameraActivity.ValumeTest valumeTest = new  CameraActivity.ValumeTest();
+//        IntentFilter intentFilter = new IntentFilter();
+//        intentFilter.addAction("asasqwe");
+//        registerReceiver(valumeTest, intentFilter);
 
     }
 
