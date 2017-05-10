@@ -22,33 +22,50 @@ public class RobMoney extends AccessibilityService {
     protected boolean onKeyEvent(KeyEvent event) {
         Log.i(TAG, "onKeyEvent");
         int key = event.getKeyCode();
-        switch (key) {
-            case KeyEvent.KEYCODE_VOLUME_DOWN:
-//                Intent downintent = new Intent("com.exmaple.broadcaster.KEYDOWN");
-//                downintent.putExtra("dtime", System.currentTimeMillis());
-//                sendBroadcast(downintent);
-//                Log.i(TAG, "KEYCODE_VOLUME_DOWN");
-//                Toast.makeText(this, "KEYCODE_VOLUME_DOWN", Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent("asasqwe");
-                intent.putExtra("ABC","KEYCODE_VOLUME_DOWN");
-                sendBroadcast(intent);
-
-                break;
-            case KeyEvent.KEYCODE_VOLUME_UP:
-//                Intent upintent = new Intent("com.exmaple.broadcaster.KEYUP");
-//                upintent.putExtra("utime", System.currentTimeMillis());
-//                sendBroadcast(upintent);
-//                Log.i(TAG, "KEYCODE_VOLUME_UP");
-//                Toast.makeText(this, "KEYCODE_VOLUME_UP", Toast.LENGTH_SHORT).show();
-
-                Intent intent2 = new Intent("asasqwe");
-                intent2.putExtra("ABC","KEYCODE_VOLUME_UP");
-                sendBroadcast(intent2);
-
-
-                break;
+        if (key == KeyEvent.KEYCODE_VOLUME_DOWN) {
+            Intent intent = new Intent("asasqwe");
+            intent.putExtra("ABC", "KEYCODE_VOLUME_DOWN");
+            sendBroadcast(intent);
+            return true;
         }
+        if (key == KeyEvent.KEYCODE_VOLUME_UP) {
+
+            Intent intent2 = new Intent("asasqwe");
+            intent2.putExtra("ABC", "KEYCODE_VOLUME_UP");
+            sendBroadcast(intent2);
+
+            return true;
+        }
+
+//        switch (key) {
+//            case KeyEvent.KEYCODE_VOLUME_DOWN:
+////                Intent downintent = new Intent("com.exmaple.broadcaster.KEYDOWN");
+////                downintent.putExtra("dtime", System.currentTimeMillis());
+////                sendBroadcast(downintent);
+////                Log.i(TAG, "KEYCODE_VOLUME_DOWN");
+////                Toast.makeText(this, "KEYCODE_VOLUME_DOWN", Toast.LENGTH_SHORT).show();
+//
+//                Intent intent = new Intent("asasqwe");
+//                intent.putExtra("ABC", "KEYCODE_VOLUME_DOWN");
+//                sendBroadcast(intent);
+//
+//                break;
+//
+//            case KeyEvent.KEYCODE_VOLUME_UP:
+////                Intent upintent = new Intent("com.exmaple.broadcaster.KEYUP");
+////                upintent.putExtra("utime", System.currentTimeMillis());
+////                sendBroadcast(upintent);
+////                Log.i(TAG, "KEYCODE_VOLUME_UP");
+////                Toast.makeText(this, "KEYCODE_VOLUME_UP", Toast.LENGTH_SHORT).show();
+//
+//                Intent intent2 = new Intent("asasqwe");
+//                intent2.putExtra("ABC", "KEYCODE_VOLUME_UP");
+//                sendBroadcast(intent2);
+//
+//
+//                break;
+//        }
         return super.onKeyEvent(event);
     }
 
@@ -70,6 +87,9 @@ public class RobMoney extends AccessibilityService {
 
     }
 
+    /**
+     *监听桌面的变化
+     */
     @Override
     public void onAccessibilityEvent(AccessibilityEvent event) {
         // TODO Auto-generated method stub

@@ -32,12 +32,12 @@
         "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\select_vedio_time.xml"
     },
     {
-        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_progress2.xml",
-        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\view_custom_progress2.xml"
-    },
-    {
         "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_progress.xml",
         "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\view_custom_progress.xml"
+    },
+    {
+        "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_progress2.xml",
+        "source": "D:\\studioworkspcse\\PMWS_as\\res\\layout\\view_custom_progress2.xml"
     },
     {
         "merged": "D:\\studioworkspcse\\PMWS_as\\build\\intermediates\\res\\merged\\debug\\layout\\file_row.xml",

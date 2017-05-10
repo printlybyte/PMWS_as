@@ -31,6 +31,7 @@ import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -119,26 +120,28 @@ public class CameraActivity extends Service {
     private String TAG = "CameraActivity";
 
     private StopReCordingReceiver stopReCordingReceiver;
-
+    private ValumeChangeCarme valumeTest;
 
     private String CAMERAID_BACK = "后置";
     private String CAMERAID_FRONT = "前置";
     private String CAMERAID_SPECIAL = "特殊前置";
 
+    private int VolumeEmbellish = 1;
+    
 
     @Override
     public void onCreate() {
         super.onCreate();
 
-        //静态注册广播
-        CameraActivity.ValumeChangeCarme valumeTest = new CameraActivity.ValumeChangeCarme();
+        //动态注册接受来自辅助服务的广播
+        valumeTest = new ValumeChangeCarme();
         IntentFilter intentFilter2 = new IntentFilter();
         intentFilter2.addAction("asasqwe");
         registerReceiver(valumeTest, intentFilter2);
 
 
         sp = getSharedPreferences("PMWS_SET", MODE_PRIVATE);
-// 文件存储路径选择
+        // 文件存储路径选择
         String mFilepath = sp.getString(SettingsUtil.PREF_KEY_FILE_PATH, "手机");
         if (mFilepath.equals("手机")) {
             mFileDir = SettingsUtil.DIR_SDCRAD1 + SettingsUtil.DIR_DATA;
@@ -172,8 +175,10 @@ public class CameraActivity extends Service {
         } else {
             mSDReady = true;
         }
+//        mWindowManager = ((WindowManager) getApplicationContext()
+//                .getSystemService("window"));
         mWindowManager = ((WindowManager) getApplicationContext()
-                .getSystemService("window"));
+                .getSystemService(Context.WINDOW_SERVICE));
 
         loadSettings();
 
@@ -870,6 +875,9 @@ public class CameraActivity extends Service {
         }
 
         unregisterReceiver(stopReCordingReceiver);
+        //
+        unregisterReceiver(valumeTest);
+
 
         super.onDestroy();
 
@@ -892,60 +900,94 @@ public class CameraActivity extends Service {
 
     }
 
-        //音量+-键切换surface预览窗口
+    /**
+     * 音量+-键切换surface预览窗口
+     */
+
     public class ValumeChangeCarme extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
             String qubie = intent.getStringExtra("ABC");
             if (qubie != null && qubie.equals("KEYCODE_VOLUME_DOWN")) {
-                Log.i(TAG,"测试KEYCODE_VOLUME_DOWN");
+                Log.i(TAG, "测试KEYCODE_VOLUME_DOWN");
                 TestsBroadStop();//点击音量键停止视频录制
 
-
-                if (mCameraId == 0) {
-                    SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_FRONT);
-                }
-                if (mCameraId == 1) {
-                    SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_BACK);
-                }
-                if (mCameraId == 2) {
-                    SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_BACK);
+                //等于1是则是没有开始录制
+                if (VolumeEmbellish == 1) {
+                    VolumeCarmeChange();
                 }
 
                 //启动另外服务开启，点击音量键
-                Intent i = new Intent(getBaseContext(),MyServiceStart.class);
+                Intent i = new Intent(getBaseContext(), MyServiceStart.class);
                 startService(i);
 
 
             }
             if (qubie != null && qubie.equals("KEYCODE_VOLUME_UP")) {
-                Log.i(TAG,"测试KEYCODE_VOLUME_UP");
+                Log.i(TAG, "测试KEYCODE_VOLUME_UP");
                 TestsBroadStop();//点击音量键停止正在录制
 
+                //等于1是则是没有开始录制
+                if (VolumeEmbellish == 1) {
+                    VolumeCarmeChange();
+                }
 
-
+                //启动另外服务开启，点击音量键
+                Intent i = new Intent(getBaseContext(), MyServiceStart.class);
+                startService(i);
             }
         }
     }
 
+    /**
+     * 音量键摄像头切换选择
+     */
+    private void VolumeCarmeChange() {
+        if (mCameraId == 0) {
+            SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_FRONT);
+        }
+        if (mCameraId == 1) {
+            SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_BACK);
+        }
+        if (mCameraId == 2) {
+            SaveToSp(SettingsUtil.PREF_KEY_CAMERAID, CAMERAID_BACK);
+        }
+    }
 
+    /**
+     * 如果在录制停止，如果没有录制则切换摄像头
+     *
+     * @VolumeEmbellish 判断摄像头的选择
+     * @VolumeCarmeChange 改变系统配置的摄像头
+     */
     private void TestsBroadStop() {
-        Toast.makeText(this, "录制已经停止", Toast.LENGTH_SHORT).show();
-        mHandler.removeMessages(MSG_RESTART_RECORDING);
-        mHandler.removeMessages(MSG_START_RECORDING);
+        if (mIsRecording == false) {
+            Log.i(TAG, "重新初始化");
+            VolumeCarmeChange();
+            VolumeEmbellish = 2;
+            releaseMediaRecorder();
+            releaseCamera();
+            mWindowManager.removeView(mRootView);
+            stopSelf();
+        } else {
+            Toast.makeText(this, "录制已经停止", Toast.LENGTH_SHORT).show();
+            mHandler.removeMessages(MSG_RESTART_RECORDING);
+            mHandler.removeMessages(MSG_START_RECORDING);
 
-        stopRecording();
+            stopRecording();
 
-        releaseMediaRecorder(); // if you are using MediaRecorder,
-        // release it first
-        releaseCamera(); // release the camera immediately on pause event
+            releaseMediaRecorder(); // if you are using MediaRecorder,
+            // release it first
+            releaseCamera(); // release the camera immediately on pause event
 
-        mWindowManager.removeView(mRootView);
-        mNotificationManager.cancel(NOTIFI_ID_SERVICE_STARTED);
+            mWindowManager.removeView(mRootView);
+            mNotificationManager.cancel(NOTIFI_ID_SERVICE_STARTED);
 
-        Pingmws_SetActivity.sIsRecording = false;
-        MainActivity2.sIsRecording = false;
-        stopSelf();
+            Pingmws_SetActivity.sIsRecording = false;
+            MainActivity2.sIsRecording = false;
+            stopSelf();
+            VolumeEmbellish = 1;
+        }
     }
 
 
@@ -954,7 +996,8 @@ public class CameraActivity extends Service {
         et.putString(key, value);
         et.commit();
     }
-          //移除指定key
+
+    //移除指定key
     private void RemoveSp(String key) {
         SharedPreferences.Editor et = sp.edit();
         et.remove(key);
